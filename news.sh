@@ -22,3 +22,5 @@ $BBlack gp-update$Color_Off
  or
  web-interface > System A. Excute Command > mympd-up > EXCUTE $BGreen(faster)$Color_Off"
 echo -e " \e[38;5;154m────────────────────────────────────────────\e[0m"
+
+exit 0
