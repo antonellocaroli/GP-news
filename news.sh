@@ -14,7 +14,7 @@ echo
 echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.0"
 echo
 echo -e "to update:
- $BBlack mympd-up$Color_Off
+$BBlack gp-update$Color_Off
  and
  ssh: command $BBlack mympd-up$Color_Off $BGreen(faster)$Color_Off
  or
