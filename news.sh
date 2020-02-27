@@ -8,11 +8,13 @@ echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack versio
 echo
 echo -e "$BBlack Latest News:$Color_Off"
 echo
+
+
 ###############################################
 echo -e " \e[38;5;154m────────────────────────────────────────────\e[0m"
-echo -e "$BGreen 27.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
+echo -e "$BGreen 25.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.0$Color_Off"
 echo
-echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.1"
+echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.0"
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
@@ -43,9 +45,9 @@ echo -e " \e[38;5;154m───────────────────�
 ###########################################
 ###############################################
 echo -e " \e[38;5;154m────────────────────────────────────────────\e[0m"
-echo -e "$BGreen 25.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.0$Color_Off"
+echo -e "$BGreen 27.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
 echo
-echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.0"
+echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.1"
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
