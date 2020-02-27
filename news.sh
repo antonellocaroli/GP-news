@@ -10,7 +10,7 @@ echo -e "$BBlack Latest News:$Color_Off"
 echo
 ###############################################
 echo -e " \e[38;5;154m────────────────────────────────────────────\e[0m"
-echo -e "$BGreen 25.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
+echo -e "$BGreen 27.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
 echo
 echo -e "https://github.com/jcorporation/myMPD/releases/tag/v6.2.1"
 echo
