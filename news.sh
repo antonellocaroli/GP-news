@@ -19,6 +19,7 @@ $BBlack gp-update$Color_Off
  ssh: command $BBlack kernelupsw$Color_Off
  or
  web-interface > System A. UP/DW kernel > List Kernel Version > 4.19.106-260220 > EXCUTE"
+ echo -e "NOTES: use$BBlack selectkernel$Color_Off command or web-interface > System A. Selectkernel to change kernel after installing it"
 echo -e " \e[38;5;154m────────────────────────────────────────────\e[0m"
 
 ###########################################
