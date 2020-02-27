@@ -29,7 +29,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 26.02.19$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi4$Color_Off v.4.19.106 $Color_Off"
+echo -e "$BGreen 26.02.19$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi4-64bit$Color_Off v.4.19.106 $Color_Off"
 echo
 echo
 echo -e "to update:
