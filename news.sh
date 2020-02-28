@@ -60,6 +60,23 @@ $BBlack gp-update$Color_Off
 echo -e " ────────────────────────────────────────────"
 
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 28.02.19$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 $Color_Off"
+echo
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ and
+ ssh: command $BBlack kernelupsw$Color_Off
+ or
+ web-interface > System A. UP/DW kernel > List Kernel Version > 4.19.106-270220 > EXCUTE"
+ echo
+ echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System A. Selectkernel$Color_Off to change kernel after installing it"
+echo -e " ────────────────────────────────────────────"
 
+###########################################
+
+############
 exit 0
 ###########
