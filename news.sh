@@ -12,7 +12,7 @@ echo
 
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 25.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.0$Color_Off"
+echo -e "$BGreen 25.02.20$Color_Off $BBlack A new version of MyMpd is available v.6.2.0$Color_Off"
 echo
 echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.0"
 echo
@@ -29,7 +29,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 26.02.19$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi4-64bit$Color_Off v.4.19.106 $Color_Off"
+echo -e "$BGreen 26.02.20$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi4-64bit$Color_Off v.4.19.106 $Color_Off"
 echo
 echo
 echo -e "to update:
@@ -45,7 +45,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 27.02.19$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
+echo -e "$BGreen 27.02.20$Color_Off $BBlack A new version of MyMpd is available v.6.2.1$Color_Off"
 echo
 echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.1"
 echo
@@ -62,7 +62,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 28.02.19$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 $Color_Off"
+echo -e "$BGreen 28.02.20$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 $Color_Off"
 echo
 echo
 echo -e "to update:
@@ -71,6 +71,22 @@ $BBlack gp-update$Color_Off
  ssh: command $BBlack kernelupsw$Color_Off
  or
  web-interface > System A. UP/DW kernel > List Kernel Version > 4.19.106-270220 > EXCUTE"
+ echo
+ echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System A. Selectkernel$Color_Off to change kernel after installing it"
+echo -e " ────────────────────────────────────────────"
+
+###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 01.03.20$Color_Off $BBlack A new version Kernel RT and no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 (and v.4.14 with new AX2 driver) $Color_Off"
+echo
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ and
+ ssh: command $BBlack kernelupsw$Color_Off
+ or
+ web-interface > System A. UP/DW kernel > List Kernel Version > kernel_version > EXCUTE"
  echo
  echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System A. Selectkernel$Color_Off to change kernel after installing it"
 echo -e " ────────────────────────────────────────────"
