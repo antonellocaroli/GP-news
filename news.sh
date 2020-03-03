@@ -87,7 +87,7 @@ echo -e " ───────────────────────�
 ###############################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 03.03.20$Color_Off $BBlack A new version Kernel-RT$Color_Off$BGreen x86_64$Color_Off$BBlack v.4.19.x is aviable$Color_Off"
-echo -e "It seems that rooserver has some problems with the 5.x kernel version"
+echo -e "It seems that RoonServer has some problems with the 5.x kernel version"
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
