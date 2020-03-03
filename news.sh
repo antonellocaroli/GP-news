@@ -30,7 +30,6 @@ echo -e " ───────────────────────�
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 26.02.20$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi4-64bit$Color_Off v.4.19.106 $Color_Off"
 echo
-echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  and
@@ -61,7 +60,6 @@ echo -e " ───────────────────────�
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 28.02.20$Color_Off $BBlack A new version Kernel no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 $Color_Off"
 echo
-echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  and
@@ -75,7 +73,6 @@ echo -e " ───────────────────────�
 ###############################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 01.03.20$Color_Off $BBlack A new version Kernel RT and no-RT is aviable for$BGreen Rpi3-64bit$Color_Off v.4.19.106 (and v.4.14 with new AX2 driver) $Color_Off"
-echo
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
@@ -91,7 +88,6 @@ echo -e " ───────────────────────�
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 03.03.20$Color_Off $BBlack A new version Kernel-RT$Color_Off$BGreen x86_64$Color_Off$BBlack v.4.19.x is aviable$Color_Off"
 echo -e "It seems that rooserver has some problems with the 5.x kernel version"
-echo
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
