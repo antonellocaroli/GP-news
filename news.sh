@@ -117,7 +117,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.03.20$Color_Off $BBlack x86_64 Update versione 2.10 to 2.11$Color_Off"
+echo -e "$BGreen 07.03.20$Color_Off $BBlack x86_64/Rpi3/Rpi4 Update versione 2.10 to 2.11$Color_Off"
 echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
 echo
 echo -e "to update:
