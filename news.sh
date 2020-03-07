@@ -121,7 +121,7 @@ echo -e "$BGreen 07.03.20$Color_Off $BBlack x86_64 Update versione 2.10 to 2.11$
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
- web-interface > System H. GP-Version Update > Update version > 2.10-up-2.11 > EXCUTE
+ web-interface > System H. GP-Version Update > Update version > 2.10-up-2.11 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
 
