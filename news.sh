@@ -101,7 +101,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 27.02.20$Color_Off $BBlack A new version of MyMpd is available v.6.2.3$Color_Off"
+echo -e "$BGreen 07.03.20$Color_Off $BBlack A new version of MyMpd is available v.6.2.3$Color_Off"
 echo
 echo -e "Changelog: https://github.com/jcorporation/myMPD/releases/tag/v6.2.3"
 echo
