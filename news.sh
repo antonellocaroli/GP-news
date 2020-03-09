@@ -125,6 +125,16 @@ $BBlack gp-update$Color_Off
  web-interface > System H. GP-Version Update > Update version > 2.10-up-2.11 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 09.03.20$Color_Off $BBlack A new version of eeprom driver is available v.5.0.2$Color_Off"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ and
+ web-interface > System H. Firmware Update > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+###########################################
 
 ############
 exit 0
