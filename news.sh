@@ -135,6 +135,16 @@ $BBlack gp-update$Color_Off
  web-interface > System H. Firmware Update > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 15.03.20$Color_Off $BBlack A new version of eeprom driver for$BGreen Rpi$Color_Off is available v.5.1.1$Color_Off"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ and
+ web-interface > System H. Firmware Update > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+###########################################
 
 ############
 exit 0
