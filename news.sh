@@ -147,7 +147,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 09.03.20$Color_Off $BBlack A new version of eeprom driver for$BGreen Rpi$Color_Off is available v.5.2.1$Color_Off"
+echo -e "$BGreen 26.03.20$Color_Off $BBlack A new version of eeprom driver for$BGreen Rpi$Color_Off is available v.5.2.1$Color_Off"
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
