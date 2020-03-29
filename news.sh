@@ -155,6 +155,17 @@ $BBlack gp-update$Color_Off
  web-interface > System H. Firmware Update > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 29.03.20$Color_Off $BBlack Rpi3 Update versione 2.11 to 2.12$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo -e "Changelog: http://www.gentooplayer.com/news"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Switching/Remove > GP-Version Update > 2.11-up-2.12 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+###########################################
 
 ############
 exit 0
