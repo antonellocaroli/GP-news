@@ -166,6 +166,17 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Switching/Remove > GP-Version Update > 2.11-up-2.12 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 14.04.20$Color_Off $BBlack x86_64 Update versione 2.11 to 2.13$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo -e "Changelog: http://www.gentooplayer.com/news"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Switching/Remove > GP-Version Update > 2.11-up-2.12 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+###########################################
 
 ############
 exit 0
