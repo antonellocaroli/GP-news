@@ -190,7 +190,7 @@ echo -e " ───────────────────────�
 ###########################################
 ###############################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 06.06.20$Color_Off $BBlack Rpi3 Update versione 2.13 to 2.14$Color_Off"
+echo -e "$BGreen 07.06.20$Color_Off $BBlack Rpi3/Rpi4 Update versione 2.13 to 2.14$Color_Off"
 echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
 echo -e "Changelog: http://www.gentooplayer.com/news"
 echo
