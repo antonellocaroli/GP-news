@@ -196,7 +196,7 @@ echo -e "Changelog: http://www.gentooplayer.com/news"
 echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
- web-interface > Update/Switching/Remove > GP-Version Update > 2.11-up-2.12 > EXCUTE"
+ web-interface > Update/Switching/Remove > GP-Version Update > 2.13-up-2.14 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
 
