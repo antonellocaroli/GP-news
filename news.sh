@@ -199,6 +199,17 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Switching/Remove > GP-Version Update > 2.13-up-2.14 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ###########################################
+###############################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 22.06.20$Color_Off $BBlack Rpi3/Rpi4 Update versione 2.14 to 2.15$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo -e "Changelog: Update System"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Switching/Remove > GP-Version Update > 2.14-up-2.15 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+###########################################
 
 ############
 exit 0
