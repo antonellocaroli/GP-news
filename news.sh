@@ -21,6 +21,17 @@ $BBlack gp-update$Color_Off
  echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System Base Config > SelectKernel$Color_Off to change kernel after installing it"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 27.09.20$Color_Off $BBlack A new version Standard and RT Kernel is aviable for$BGreen Rpi4-64bit$Color_Off v.5.4.65$Color_Off"
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ and
+ web-interface > Update/Switching/Remove > Up/Dw Kernel > kernel_version > EXCUTE"
+ echo
+ echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System Base Config > SelectKernel$Color_Off to change kernel after installing it"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 ############
