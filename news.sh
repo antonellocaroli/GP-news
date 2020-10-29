@@ -32,6 +32,15 @@ $BBlack gp-update$Color_Off
  echo -e "NOTES: use$BBlack selectkernel$Color_Off command or$BBlack web-interface > System Base Config > SelectKernel$Color_Off to change kernel after installing it"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 29.10.20$Color_Off $BBlack Rpi3/Rpi4 Update versione 3.00 to 3.01$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Switching/Remove > GP-Version Update > 3.00-up-3.01 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 ############
