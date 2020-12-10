@@ -7,7 +7,7 @@ srciptvd=03
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
-echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version=$gpversion script/menu=$srciptv latest script/menu version=$srciptvd$Color_Off"
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version=$gpversion script/menu=$scriptv latest_version=$srciptvd$Color_Off"
 echo
 echo -e "$BBlack Latest News:$Color_Off"
 echo
