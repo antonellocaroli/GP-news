@@ -44,20 +44,7 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Switching/Remove > GP-Version Update > 3.00-up-3.01 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 25.12.20  New images v. 3.50$Color_Off
 
-All:$BBlack
--update system
--should solve the disconnection problem with upmpcli
--minor fix
--improved hotspot, no need to configure the ip anymore, just enter the pw (gentooplayer)$Color_Off
-
-Rpi4$BBlack
--add samba server
--compatible with cm4 board$Color_Off"
-echo -e " ────────────────────────────────────────────"
-##############################################################################
 
 
 
