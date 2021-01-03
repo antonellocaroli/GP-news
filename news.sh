@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=11
+srciptvd=12
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -45,7 +45,7 @@ $BBlack gp-update$Color_Off
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 25.12.20  New images v. 3.50$Color_Off
+echo -e "$BGreen 25.12.20  New images v.3.50$Color_Off
 
 All:$BBlack
 -update system
@@ -59,7 +59,7 @@ Rpi4$BBlack
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 01.01.21  New images v. 3.61$Color_Off
+echo -e "$BGreen 01.01.21  New images v.3.61$Color_Off
 
 All:$BBlack
 -update system
@@ -68,8 +68,13 @@ All:$BBlack
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 02.01.21  Script v. 11$Color_Off
+echo -e "$BGreen 02.01.21  Script v.11$Color_Off
 $BBlack WebInterface also works on android phones$Color_Off"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 03.01.21  Script v.12$Color_Off
+$BBlack WebInterface add WI Themes$Color_Off"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 
