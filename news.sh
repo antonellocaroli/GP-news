@@ -90,7 +90,7 @@ The minimum effective volume adjustment was 5. Reset it to 1.
 
 Cache update issues in OH playlist resulted in incomplete metadata.$Color_Off
 
-Install:
+$BGreen Install:$Color_Off
 emerge --sync
 MAKEOPTS=\"-j1\" emerge --ask upmpdcli"
 echo -e " ────────────────────────────────────────────"
