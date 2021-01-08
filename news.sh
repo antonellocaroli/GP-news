@@ -80,7 +80,7 @@ echo -e " ───────────────────────�
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08.01.21  New version Upmpdcli (1.5.7)$Color_Off
 release notes:
-$BBlack Fix timeout issue while in long pause (>60S, play transition started from other client was not detected)
+"$BBlack"Fix timeout issue while in long pause (>60S, play transition started from other client was not detected)
 
 Fix ohinfo issue resulting in no cover art display in Kazoo -currently playing- screen.
 
