@@ -77,6 +77,24 @@ echo -e "$BGreen 03.01.21  Script v.12$Color_Off
 $BBlack WebInterface add WI Themes$Color_Off"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08.01.21  New version Upmpdcli (1.5.7)$Color_Off
+release notes:
+$BBlack Fix timeout issue while in long pause (>60S, play transition started from other client was not detected)
+
+Fix ohinfo issue resulting in no cover art display in Kazoo -currently playing- screen.
+
+Fix a number of issues in radio metadata.
+
+The minimum effective volume adjustment was 5. Reset it to 1.
+
+Cache update issues in OH playlist resulted in incomplete metadata.$Color_Off
+
+Install:
+emerge --sync
+MAKEOPTS="-j1" emerge --ask upmpdcli"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 
