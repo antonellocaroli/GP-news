@@ -92,7 +92,7 @@ Cache update issues in OH playlist resulted in incomplete metadata.$Color_Off
 
 Install:
 emerge --sync
-MAKEOPTS="-j1" emerge --ask upmpdcli"
+MAKEOPTS=\"-j1\" emerge --ask upmpdcli"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 
