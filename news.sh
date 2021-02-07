@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=13
+srciptvd=14
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -111,6 +111,19 @@ $BBlack
 5.4.83-210121
 5.4.83-210121-TEST$Color_Off
 TEST: Timer kernel patch"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 07.02.21  New version of scripts available (v.14)$Color_Off
+$BBlack
+- Added in Update/Switching/Remove menu the function \"Software downgrade\".
+it allows to install different version of some softwares, like for example alsa and try the differences with older version like for example the old alsa-1.0.29
+
+- Fix problem with room name when containing a space in squeezelite configuration
+
+- x86_64 kernel update v. 5.10 available, plus a set of \"TEST\" kernels have been added where there are some patches to the kernel timer, which is set in these kernels to 44100hz. I'm not sure if you will get positive feedback, they need to be tested and tried.
+
+- Other less important fixes$Color_Off"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 
