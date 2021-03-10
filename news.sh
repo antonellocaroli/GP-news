@@ -127,38 +127,21 @@ it allows to install different version of some softwares, like for example alsa 
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 14.02.21  INSTALL THE AMD CPU VERSION OF HQPLAYER AND HQPLAYER EMBEDDED$Color_Off
+echo -e "$BGreen 10.03.21  INSTALL THE RIGHT VERSION FOR YOUR CPU OF HQPLAYER AND HQPLAYER EMBEDDED$Color_Off
 $BBlack
 gp-update$Color_Off
 
--Remove normal version
+echo \"*/* $(cpuid2cpuflags)\" > /etc/portage/package.use/00cpu-flags
 
+-Install:
 HQP:
 $BBlack
-emerge -C hqplayer4desktop-bin$Color_Off
-HQPe:
-$BBlack
-emerge -C hqplayerd-bin$Color_Off
--Install amd version:
-HQP:
-$BBlack
-emerge --ask hqplayer4desktop_amd-bin$Color_Off
+emerge --ask hqplayer4desktop-bin$Color_Off
 
 HQPe:
 $BBlack
-emerge --ask hqplayerd_amd-bin$Color_Off
-
-
-
-if you receive error messages, key and license, give the following commands and try again:
-$BBlack
-echo \"hqplayer4desktop_amd-bin ~amd64\" >> /etc/portage/package.accept_keywords/my_key
-
-echo \"hqplayerd_amd-bin ~amd64\" >> /etc/portage/package.accept_keywords/my_key
-
-echo \"hqplayer4desktop_amd-bin Signalyst\" >> /etc/portage/package.license/license
-
-echo \"hqplayerd_amd-bin Signalyst\" >> /etc/portage/package.license/license$Color_Off"
+emerge --ask hqplayerd-bin$Color_Off
+"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 
