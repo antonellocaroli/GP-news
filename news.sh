@@ -131,7 +131,7 @@ echo -e "$BGreen 10.03.21  INSTALL THE RIGHT VERSION FOR YOUR CPU OF HQPLAYER AN
 $BBlack
 gp-update$Color_Off
 
-echo \"*/* $(cpuid2cpuflags)\" > /etc/portage/package.use/00cpu-flags
+echo \"*/* \$(cpuid2cpuflags)\" > /etc/portage/package.use/00cpu-flags
 
 -Install:
 HQP:
