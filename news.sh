@@ -127,24 +127,6 @@ it allows to install different version of some softwares, like for example alsa 
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 10.03.21  INSTALL THE RIGHT VERSION FOR YOUR CPU OF HQPLAYER AND HQPLAYER EMBEDDED$Color_Off
-$BBlack
-gp-update$Color_Off
-$BBlack
-echo \"*/* \$(cpuid2cpuflags)\" > /etc/portage/package.use/00cpu-flags$Color_Off
-
--Install:
-HQP:
-$BBlack
-emerge --ask hqplayer4desktop-bin$Color_Off
-
-HQPe:
-$BBlack
-emerge --ask hqplayerd-bin$Color_Off
-"
-echo -e " ────────────────────────────────────────────"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 15.05.21 Version 6.0 is out$Color_Off
 see
 http://www.gentooplayer.com/news
