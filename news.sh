@@ -148,6 +148,13 @@ echo -e " ───────────────────────�
 
 
 
+
+
+#############
+echo
+echo
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version=$gpversion script="$scriptv" latest_version=$srciptvd$Color_Off"
+echo
 ############
 exit 0
 ###########
