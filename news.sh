@@ -7,7 +7,7 @@ srciptvd=30
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
-echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version=$gpversion script="$scriptv" latest_version=$srciptvd$Color_Off"
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
 echo
 echo -e "$BBlack Latest News:$Color_Off"
 echo
@@ -153,7 +153,7 @@ echo -e " ───────────────────────�
 #############
 echo
 echo
-echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version=$gpversion script="$scriptv" latest_version=$srciptvd$Color_Off"
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
 echo
 ############
 exit 0
