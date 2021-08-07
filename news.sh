@@ -144,6 +144,15 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 12.06.21$Color_Off $BBlack Update versione 6.10 to 6.20$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 
