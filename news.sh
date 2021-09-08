@@ -153,8 +153,21 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
-
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08.09.21 Version 6.30 is out$Color_Off
+see
+http://www.gentooplayer.com/news
+"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08.09.21$Color_Off $BBlack Update versione 6.20 to 6.30$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
 
 
 
