@@ -168,7 +168,14 @@ echo -e "to update:
 $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
 echo -e " ────────────────────────────────────────────"
-
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 27.09.21 Version 6.40 is out$Color_Off
+see
+https://gentooplayers.com/News
+"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 
