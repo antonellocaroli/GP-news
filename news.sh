@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=48
+srciptvd=50
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -183,6 +183,13 @@ https://gentooplayers.com/News
 "
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 31.10.21 gp-update update script #50$Color_Off
+see
+https://gentooplayers.com/News
+"
+echo -e " ────────────────────────────────────────────"
 
 
 
