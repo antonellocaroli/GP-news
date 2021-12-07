@@ -192,7 +192,7 @@ https://gentooplayers.com/News
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.11.21$Color_Off $BBlack Update versione 6.40 to 6.50$Color_Off"
+echo -e "$BGreen 07.12.21$Color_Off $BBlack Update versione 6.40 to 6.50$Color_Off"
 echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
 echo
 echo -e "to update:
