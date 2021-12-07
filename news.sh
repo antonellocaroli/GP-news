@@ -190,6 +190,16 @@ see
 https://gentooplayers.com/News
 "
 echo -e " ────────────────────────────────────────────"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 07.11.21$Color_Off $BBlack Update versione 6.40 to 6.50$Color_Off"
+echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
+echo
+echo -e "to update:
+$BBlack gp-update$Color_Off
+ web-interface > Update/Install/Remove > GP-Version Update > 6.40-up-6.50 > EXCUTE"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 
