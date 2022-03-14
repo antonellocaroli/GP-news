@@ -225,6 +225,16 @@ Add Diretta Target
 "
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 14.03.22 gp-update update script #73$Color_Off
+-added possibility of choosing which network interface to switch off in Play2Dir and PlayDir
+-added direct_host log in Hpme System > Log
+requires debugging to be enabled in the configuration of direct_host
+
+-Other improvements
+"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
 
 
 
