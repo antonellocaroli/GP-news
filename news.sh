@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=74
+srciptvd=75
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -110,6 +110,12 @@ echo -e "$BGreen 14.03.22 gp-update update script #73$Color_Off
 requires debugging to be enabled in the configuration of diretta_host
 
 -Other improvements
+"
+echo -e " ────────────────────────────────────────────"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 14.03.22 gp-update update script #75$Color_Off
+-update script
 "
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
