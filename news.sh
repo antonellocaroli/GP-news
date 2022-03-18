@@ -113,10 +113,13 @@ requires debugging to be enabled in the configuration of diretta_host
 "
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen gp-update update script #79$Color_Off
-"
-echo -e " ────────────────────────────────────────────"
+if [ "$scriptv" -lt "$srciptvd" ]; then
+  echo -e " ────────────────────────────────────────────"
+  echo "i tuo script non sono aggiornati."
+  echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
+  "
+  echo -e " ────────────────────────────────────────────"
+fi
 ##############################################################################
 
 
