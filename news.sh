@@ -20,7 +20,6 @@ echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.08.21$Color_Off $BBlack Update versione 6.10 to 6.20$Color_Off"
@@ -29,14 +28,12 @@ echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08.09.21 Version 6.30 is out$Color_Off
 see
 http://www.gentooplayer.com/news
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08.09.21$Color_Off $BBlack Update versione 6.20 to 6.30$Color_Off"
@@ -45,21 +42,18 @@ echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 27.09.21 Version 6.40 is out$Color_Off
 see
 https://gentooplayers.com/News
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 17.10.21 gp-update update script #44$Color_Off
 see
 https://gentooplayers.com/News
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
@@ -67,7 +61,6 @@ echo -e "$BGreen 31.10.21 gp-update update script #50$Color_Off
 see
 https://gentooplayers.com/News
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.12.21$Color_Off $BBlack Update versione 6.40 to 6.50$Color_Off"
@@ -76,32 +69,27 @@ echo
 echo -e "to update:
 $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > GP-Version Update > 6.40-up-6.50 > EXCUTE"
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.12.21 Version 6.50 is out$Color_Off
 see
 http://www.gentooplayer.com/news
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.02.22 x86_64 new kernel$Color_Off
 see
 http://www.gentooplayer.com/news
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 12.02.22 Version 6.60 is out$Color_Off
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 19.02.22 gp-update update script #68$Color_Off
 Add Diretta Target
 "
-echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 14.03.22 gp-update update script #73$Color_Off
@@ -111,14 +99,17 @@ requires debugging to be enabled in the configuration of diretta_host
 
 -Other improvements
 "
-echo -e " ────────────────────────────────────────────"
+#############################################################################
+
+
+
+
 ##############################################################################
 if [ "$scriptv" -lt "$srciptvd" ]; then
   echo -e " ────────────────────────────────────────────"
   echo "your scripts are not up to date:"
   echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
   "
-  echo -e " ────────────────────────────────────────────"
 fi
 ##############################################################################
 
