@@ -114,8 +114,7 @@ requires debugging to be enabled in the configuration of diretta_host
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 14.03.22 gp-update update script #79$Color_Off
--update script
+echo -e "$BGreen gp-update update script #79$Color_Off
 "
 echo -e " ────────────────────────────────────────────"
 ##############################################################################
