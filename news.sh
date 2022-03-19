@@ -110,6 +110,9 @@ if [ "$scriptv" -lt "$srciptvd" ]; then
   echo "your scripts are not up to date:"
   echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
   "
+  echo -e " ────────────────────────────────────────────"
+else
+  echo -e " ────────────────────────────────────────────"
 fi
 ##############################################################################
 
