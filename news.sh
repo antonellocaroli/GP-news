@@ -32,7 +32,7 @@ $BBlack gp-update$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08.09.21 Version 6.30 is out$Color_Off
 see
-http://www.gentooplayer.com/news
+http://gentooplayers.com/news
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
@@ -73,13 +73,13 @@ $BBlack gp-update$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.12.21 Version 6.50 is out$Color_Off
 see
-http://www.gentooplayer.com/news
+http://gentooplayers.com/news
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.02.22 x86_64 new kernel$Color_Off
 see
-http://www.gentooplayer.com/news
+http://gentooplayers.com/news
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
