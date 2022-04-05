@@ -100,6 +100,12 @@ requires debugging to be enabled in the configuration of diretta_host
 -Other improvements
 "
 #############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 05.04.22 Version 6.70 is out$Color_Off
+see
+http://gentooplayers.com/news
+"
+##############################################################################
 
 
 
