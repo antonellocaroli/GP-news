@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=86
+srciptvd=87
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -106,29 +106,41 @@ see
 http://gentooplayers.com/news
 "
 ##############################################################################
-
-
-
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 09.04.22 x86_64 update kernel$Color_Off
+see
+http://gentooplayers.com/news
+$BBlack gp-update$Color_Off
+ web-interface > Update/Install/Remove > UP/DW Kernel
+"
 ##############################################################################
-if [ "$scriptv" -lt "$srciptvd" ]; then
-  echo -e " ────────────────────────────────────────────"
-  echo "your scripts are not up to date:"
-  echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
-  "
-  echo -e " ────────────────────────────────────────────"
-else
-  echo -e " ────────────────────────────────────────────"
-fi
-##############################################################################
+
+
+
+
+
 
 
 
 #############
+echo -e " ────────────────────────────────────────────"
 echo
 echo
 echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
 echo
+echo
+##############################################################################
+if [ "$scriptv" -lt "$srciptvd" ]; then
+  echo -e "$BRed ******************WARNING*******************$Color_Off"
+  echo "
+  your scripts are not up to date:"
+  echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
+  "
+  echo -e "$BRed ********************************************$Color_Off"
+else
+  echo -e " ────────────────────────────────────────────"
+fi
+##############################################################################
 ############
 exit 0
 ###########
