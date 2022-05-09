@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=90
+srciptvd=91
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -114,7 +114,12 @@ $BBlack gp-update$Color_Off
  web-interface > Update/Install/Remove > UP/DW Kernel
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 09.05.22 Version 6.80 is out$Color_Off
+see
+http://gentooplayers.com/news
+"
+##############################################################################
 
 
 
