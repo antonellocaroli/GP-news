@@ -120,6 +120,12 @@ see
 http://gentooplayers.com/news
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 24/05/22 Two experimental Embedded System versions released$Color_Off
+see
+http://gentooplayers.com/news
+"
+##############################################################################
 
 
 
