@@ -132,6 +132,12 @@ Fixed Target detection in host driver
 $BBlack use gp-update before trying the update$Color_Off
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 14.07.22 Version 7.00 is out$Color_Off
+see
+http://gentooplayers.com/news
+"
+##############################################################################
 
 
 
