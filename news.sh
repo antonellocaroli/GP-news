@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=106
+srciptvd=107
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -129,13 +129,21 @@ http://gentooplayers.com/news
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 02/06/22 Update diretta Host (alsaSync) v.105$Color_Off
 Fixed Target detection in host driver
-$BBlack use gp-update before trying the update$Color_Off
+"$BBlack"use gp-update before trying the update$Color_Off
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 14.07.22 Version 7.00 is out$Color_Off
 see
 http://gentooplayers.com/news
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 07/08/22:$Color_Off
+-Fixing some bugs in Expert1
+-Fixing some bugs in GPLibrary
+"$BBlack"use gp-update and update gpbin
+Update/install/remove > Software Update > gpbin$Color_Off
 "
 ##############################################################################
 
@@ -156,8 +164,8 @@ echo
 if [ "$scriptv" -lt "$srciptvd" ]; then
   echo -e "$BRed ******************WARNING*******************$Color_Off"
   echo "
-  your scripts are not up to date:"
-  echo -e "$BGreen gp-update update script #$srciptvd$Color_Off
+    your scripts are not up to date:"
+  echo -e "$BGreen      gp-update update script #$srciptvd$Color_Off
   "
   echo -e "$BRed ********************************************$Color_Off"
 else
