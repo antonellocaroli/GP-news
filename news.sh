@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=109
+srciptvd=110
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -144,6 +144,13 @@ echo -e "$BGreen 07/08/22:$Color_Off
 -Fixing some bugs in GPLibrary
 "$BBlack"use gp-update and update gpbin
 Update/install/remove > Software Update > gpbin$Color_Off
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 17/08/22:$Color_Off
+-Fixing some bugs in GPLibrary
+-Improved GP-Library Playlist info
+option view1 required update gp-library
 "
 ##############################################################################
 
