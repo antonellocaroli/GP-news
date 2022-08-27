@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=112
+srciptvd=113
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -12,14 +12,6 @@ echo
 echo -e "$BBlack Latest News:$Color_Off"
 echo
 
-####################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 12.06.21$Color_Off $BBlack Update versione 6.00 to 6.10$Color_Off"
-echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
-echo
-echo -e "to update:
-$BBlack gp-update$Color_Off
- web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 07.08.21$Color_Off $BBlack Update versione 6.10 to 6.20$Color_Off"
@@ -151,6 +143,11 @@ echo -e "$BGreen 17/08/22:$Color_Off
 -Fixing some bugs in GPLibrary
 -Improved GP-Library Playlist info
 option view1 required update gp-library
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 27/08/22 script v. 113:$Color_Off
+-Add Gmediarender resample
 "
 ##############################################################################
 
