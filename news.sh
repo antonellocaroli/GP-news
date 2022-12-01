@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=116
+srciptvd=118
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -148,6 +148,11 @@ option view1 required update gp-library
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 27/08/22 script v. 113:$Color_Off
 -Add Gmediarender resample
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 01/12/22 script v. 118:$Color_Off
+-Update Diretta Host and Target
 "
 ##############################################################################
 
