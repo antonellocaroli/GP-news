@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=119
+srciptvd=120
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -153,6 +153,21 @@ echo -e "$BGreen 27/08/22 script v. 113:$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 01/12/22 script v. 118:$Color_Off
 -Update Diretta Host and Target
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 25/12/22 script v. 120:$Color_Off
+-varius fixing
+-rpi:
+update kernel v. 5.15.79
+update kernel v. 6.1.1 sperimental (no support for Allo usb bridge)
+add extra version CLTO (version compiling with clang and lto link)
+
+-x86_64:
+update kernel v. 6.0.x
+add extra version specific CPU
+add extra version specific CPU compiling with clang and lto link (CLTO)
+add extra option EXTRM system switching, only GP >=8.00
 "
 ##############################################################################
 
