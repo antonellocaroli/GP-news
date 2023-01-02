@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=121
+srciptvd=122
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -168,6 +168,13 @@ update kernel v. 6.0.x
 add extra version specific CPU
 add extra version specific CPU compiling with clang and lto link (CLTO)
 add extra option EXTRM system switching, only GP >=8.00
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 02/01/23 script v. 122:$Color_Off
+-Add script \"Install Nvidia driver\"
+it can be used on both Xfce4 and Embedded System
+-Minor bug fixes
 "
 ##############################################################################
 
