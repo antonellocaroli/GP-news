@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=122
+srciptvd=123
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -175,6 +175,11 @@ echo -e "$BGreen 02/01/23 script v. 122:$Color_Off
 -Add script \"Install Nvidia driver\"
 it can be used on both Xfce4 and Embedded System
 -Minor bug fixes
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 05/01/23 script v. 123:$Color_Off
+-Rpi3/4 Update kernel 6.1.1-CLTO, fix reboot problem
 "
 ##############################################################################
 
