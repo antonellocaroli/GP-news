@@ -179,7 +179,7 @@ it can be used on both Xfce4 and Embedded System
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 05/01/23 script v. 123:$Color_Off
--Rpi3/4 Update kernel 6.1.1-CLTO, fix reboot problem
+-Rpi3/4 Update kernel 6.1.1-CLTO v.230105, fix reboot problem
 "
 ##############################################################################
 
