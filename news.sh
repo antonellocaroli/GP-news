@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=123
+srciptvd=124
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -180,6 +180,12 @@ it can be used on both Xfce4 and Embedded System
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 05/01/23 script v. 123:$Color_Off
 -Rpi3/4 Update kernel 6.1.1-CLTO v.230105, fix reboot problem
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08/01/23 script v. 124:$Color_Off
+-x86_64 add kernel SKYLAKE-CLTO
+-x86_64 add EXTRM-SKYLAKE system
 "
 ##############################################################################
 
