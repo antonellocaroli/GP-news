@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=124
+srciptvd=125
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -186,6 +186,12 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 08/01/23 script v. 124:$Color_Off
 -x86_64 add kernel SKYLAKE-CLTO
 -x86_64 add EXTRM-SKYLAKE system
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 09/01/23 script v. 125:$Color_Off
+-Rpi3 fix bug disable pwr led
+-all fix bug gmediarender in ramsystem
 "
 ##############################################################################
 
