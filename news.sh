@@ -197,7 +197,7 @@ echo -e "$BGreen 09/01/23 script v. 125:$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 16/01/23 script v. 126:$Color_Off
 -x86_64 solved bug switching EXTRM to another EXTRM version
--all add openhome setting upmpdcli with several radios added
+-all add openhome setting upmpdcli with several radios added (more than 400)
 it is recommended to use Linn Kazoo which also allows logging into qobuz
 without using bubbleupnp, to solve upmpdcli's openhome instability simply reinstall curl with the following command
 
