@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=125
+srciptvd=126
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -192,6 +192,18 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 09/01/23 script v. 125:$Color_Off
 -Rpi3 fix bug disable pwr led
 -all fix bug gmediarender in ramsystem
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 16/01/23 script v. 126:$Color_Off
+-x86_64 solved bug switching EXTRM to another EXTRM version
+-all add openhome setting upmpdcli with several radios added
+it is recommended to use Linn Kazoo which also allows logging into qobuz
+without using bubbleupnp, to solve upmpdcli's openhome instability simply reinstall curl with the following command
+
+$BBlack emerge -1 net-misc/curl$Color_Off
+
+after giving gp-update
 "
 ##############################################################################
 
