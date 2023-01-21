@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=126
+srciptvd=127
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -204,6 +204,11 @@ without using bubbleupnp, to solve upmpdcli's openhome instability simply reinst
 $BBlack emerge -1 net-misc/curl$Color_Off
 
 after giving gp-update
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 21/01/23 script v. 127:$Color_Off
+-Fix bug upmpdcli/qobuz in ramsystem
 "
 ##############################################################################
 
