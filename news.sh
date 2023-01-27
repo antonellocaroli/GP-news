@@ -216,6 +216,12 @@ echo -e "$BGreen 25/01/23 script v. 129:$Color_Off
 -x86_64: fix bug TWK script, on some cpu's automatically disabled turbo boost
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen script v. 130:$Color_Off
+-fix bug Move Roons/LMS Custom
+-add srcipt Network bridge remove
+"
+##############################################################################
 
 
 
