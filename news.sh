@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=131
+srciptvd=132
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -222,7 +222,14 @@ echo -e "$BGreen script v. 130:$Color_Off
 -add srcipt Network bridge remove
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 02/02/23 script v. 132:$Color_Off
+-rpi: update kernel v.230129
+70 RPi-DAC IIS supports PCM1536 e DSD-Dop512
+fix bug CIFS in ramsystem not work
+kernel 6.1.1 not CLTO work with Allo UsbBridge
+"
+##############################################################################
 
 
 
