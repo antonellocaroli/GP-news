@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=135
+srciptvd=136
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -235,7 +235,16 @@ echo -e "$BGreen 12/02/23 script v. 134:$Color_Off
 -update Script server
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 15/03/23 script v. 136:$Color_Off
+-Kernel update
+rpi: 5.15.92 - kernel with support for \"Diretta Aperitivo\" added
+x86: 6.2 - RT 6.1 added support for \"Diretta Aperitivo\"
+-Ramsystem improvements (requires gpbin update)
+-added playhrt support ( http://137.226.152.76/frankl/stereoutils/player.html#overview )
+(requires gpbin update)
+"
+##############################################################################
 
 
 
