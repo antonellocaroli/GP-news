@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=140
+srciptvd=141
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -243,6 +243,12 @@ x86: 6.2 - RT 6.1 added support for \"Diretta Aperitivo\"
 -Ramsystem improvements (requires gpbin update)
 -added playhrt support ( http://137.226.152.76/frankl/stereoutils/player.html#overview )
 (requires gpbin update)
+"
+##############################################################################
+cho -e " ────────────────────────────────────────────"
+echo -e "$BGreen 19.03.23 Version 8.10 is out$Color_Off
+see
+http://gentooplayers.com/news
 "
 ##############################################################################
 
