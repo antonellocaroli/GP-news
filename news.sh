@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=143
+srciptvd=144
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -259,6 +259,11 @@ echo -e "$BGreen 22/03/23 script v. 143:$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 03/04/23 update HQPlayerEmbedded:$Color_Off
 -should now support CUDA
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 15/04/23 soved problem HQPlayerEmbedded:$Color_Off
+-crashes in ramadisk mode1,2,3,4
 "
 ##############################################################################
 
