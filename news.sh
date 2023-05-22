@@ -245,7 +245,7 @@ x86: 6.2 - RT 6.1 added support for \"Diretta Aperitivo\"
 (requires gpbin update)
 "
 ##############################################################################
-cho -e " ────────────────────────────────────────────"
+echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 19.03.23 Version 8.10 is out$Color_Off
 see
 http://gentooplayers.com/news
