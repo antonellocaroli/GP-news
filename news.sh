@@ -267,7 +267,7 @@ echo -e "$BGreen 15/04/23 soved problem HQPlayerEmbedded:$Color_Off
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 21/05/23 script v. 149:$Color_Off
+echo -e "$BGreen 21/05/23 script v. 150:$Color_Off
 -run gp-update 2/3 times
 "
 ##############################################################################
