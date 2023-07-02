@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=157
+srciptvd=158
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -269,6 +269,12 @@ echo -e "$BGreen 15/04/23 soved problem HQPlayerEmbedded:$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 21/05/23 script v. 150:$Color_Off
 -run gp-update 2/3 times
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 02.07.23 Version 8.20 is out$Color_Off
+see
+http://gentooplayers.com/news
 "
 ##############################################################################
 
