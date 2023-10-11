@@ -5,7 +5,7 @@ gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
 srciptvd=171
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
-#
+##
 #
 echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
 echo
