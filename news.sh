@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=179
+srciptvd=180
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -317,6 +317,12 @@ bug fix
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 19/11/23$BRed Rpi5$BGreen version released $Color_Off
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 03.12.23 Version 8.40 is out$Color_Off
+see
+http://gentooplayers.com/news
 "
 ##############################################################################
 
