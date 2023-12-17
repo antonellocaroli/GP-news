@@ -3,157 +3,30 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=185
+srciptvd=186
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
-echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version=${scriptv} latest-script-version=$srciptvd$Color_Off"
 echo
 echo -e "$BBlack Latest News:$Color_Off"
 echo
 
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.08.21$Color_Off $BBlack Update versione 6.10 to 6.20$Color_Off"
-echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
-echo
-echo -e "to update:
-$BBlack gp-update$Color_Off
- web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 08.09.21 Version 6.30 is out$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 08.09.21$Color_Off $BBlack Update versione 6.20 to 6.30$Color_Off"
-echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
-echo
-echo -e "to update:
-$BBlack gp-update$Color_Off
- web-interface > Update/Install/Remove > GP-Version Update > 6.00-up-6.10 > EXCUTE"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 27.09.21 Version 6.40 is out$Color_Off
-see
-https://gentooplayers.com/News
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 17.10.21 gp-update update script #44$Color_Off
-see
-https://gentooplayers.com/News
-"
-##############################################################################
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 31.10.21 gp-update update script #50$Color_Off
-see
-https://gentooplayers.com/News
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.12.21$Color_Off $BBlack Update versione 6.40 to 6.50$Color_Off"
-echo "Depending on the speed of the CPU and/or optical media it can take a long time.."
-echo
-echo -e "to update:
-$BBlack gp-update$Color_Off
- web-interface > Update/Install/Remove > GP-Version Update > 6.40-up-6.50 > EXCUTE"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.12.21 Version 6.50 is out$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07.02.22 x86_64 new kernel$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 12.02.22 Version 6.60 is out$Color_Off
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 19.02.22 gp-update update script #68$Color_Off
-Add Diretta Target
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 14.03.22 gp-update update script #73$Color_Off
--added possibility of choosing which network interface to switch off in Play2Dir and PlayDir
--added diretta_host log in Home System > Log
-requires debugging to be enabled in the configuration of diretta_host
 
--Other improvements
-"
-#############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 05.04.22 Version 6.70 is out$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 09.04.22 x86_64 update kernel$Color_Off
-see
-http://gentooplayers.com/news
-$BBlack gp-update$Color_Off
- web-interface > Update/Install/Remove > UP/DW Kernel
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 09.05.22 Version 6.80 is out$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 24/05/22 Two experimental Embedded System versions released$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 02/06/22 Update diretta Host (alsaSync) v.105$Color_Off
-Fixed Target detection in host driver
-"$BBlack"use gp-update before trying the update$Color_Off
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 14.07.22 Version 7.00 is out$Color_Off
-see
-http://gentooplayers.com/news
-"
-##############################################################################
-echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07/08/22:$Color_Off
--Fixing some bugs in Expert1
--Fixing some bugs in GPLibrary
-"$BBlack"use gp-update and update gpbin
-Update/install/remove > Software Update > gpbin$Color_Off
-"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 17/08/22:$Color_Off
 -Fixing some bugs in GPLibrary
 -Improved GP-Library Playlist info
-option view1 required update gp-library
-"
+option view1 required update gp-library"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 27/08/22 script v. 113:$Color_Off
--Add Gmediarender resample
-"
+-Add Gmediarender resample"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 01/12/22 script v. 118:$Color_Off
--Update Diretta Host and Target
-"
+-Update Diretta Host and Target"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 25/12/22 script v. 120:$Color_Off
@@ -167,32 +40,27 @@ add extra version CLTO (version compiling with clang and lto link)
 update kernel v. 6.0.x
 add extra version specific CPU
 add extra version specific CPU compiling with clang and lto link (CLTO)
-add extra option EXTRM system switching, only GP >=8.00
-"
+add extra option EXTRM system switching, only GP >=8.00"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 02/01/23 script v. 122:$Color_Off
 -Add script \"Install Nvidia driver\"
 it can be used on both Xfce4 and Embedded System
--Minor bug fixes
-"
+-Minor bug fixes"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 05/01/23 script v. 123:$Color_Off
--Rpi3/4 Update kernel 6.1.1-CLTO v.230105, fix reboot problem
-"
+-Rpi3/4 Update kernel 6.1.1-CLTO v.230105, fix reboot problem"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08/01/23 script v. 124:$Color_Off
 -x86_64 add kernel SKYLAKE-CLTO
--x86_64 add EXTRM-SKYLAKE system
-"
+-x86_64 add EXTRM-SKYLAKE system"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 09/01/23 script v. 125:$Color_Off
 -Rpi3 fix bug disable pwr led
--all fix bug gmediarender in ramsystem
-"
+-all fix bug gmediarender in ramsystem"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 16/01/23 script v. 126:$Color_Off
@@ -203,37 +71,31 @@ without using bubbleupnp, to solve upmpdcli's openhome instability simply reinst
 
 $BBlack emerge -1 net-misc/curl$Color_Off
 
-after giving gp-update
-"
+after giving gp-update"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 21/01/23 script v. 127:$Color_Off
--Fix bug upmpdcli/qobuz in ramsystem
-"
+-Fix bug upmpdcli/qobuz in ramsystem"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 25/01/23 script v. 129:$Color_Off
--x86_64: fix bug TWK script, on some cpu's automatically disabled turbo boost
-"
+-x86_64: fix bug TWK script, on some cpu's automatically disabled turbo boost"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen script v. 130:$Color_Off
 -fix bug Move Roons/LMS Custom
--add srcipt Network bridge remove
-"
+-add srcipt Network bridge remove"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 02/02/23 script v. 132:$Color_Off
 -rpi: update kernel v.230129
 70 RPi-DAC IIS supports PCM1536 e DSD-Dop512
 fix bug CIFS in ramsystem not work
-kernel 6.1.1 not CLTO work with Allo UsbBridge
-"
+kernel 6.1.1 not CLTO work with Allo UsbBridge"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 12/02/23 script v. 134:$Color_Off
--update Script server
-"
+-update Script server"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 14/03/23 script v. 136:$Color_Off
@@ -242,95 +104,86 @@ rpi: 5.15.92 - kernel with support for \"Diretta Aperitivo\" added
 x86: 6.2 - RT 6.1 added support for \"Diretta Aperitivo\"
 -Ramsystem improvements (requires gpbin update)
 -added playhrt support ( http://137.226.152.76/frankl/stereoutils/player.html#overview )
-(requires gpbin update)
-"
+(requires gpbin update)"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 19.03.23 Version 8.10 is out$Color_Off
 see
-http://gentooplayers.com/news
-"
+http://gentooplayers.com/news"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 22/03/23 script v. 143:$Color_Off
--update Ramsystem
-"
+-update Ramsystem"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 03/04/23 update HQPlayerEmbedded:$Color_Off
--should now support CUDA
-"
+-should now support CUDA"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 15/04/23 soved problem HQPlayerEmbedded:$Color_Off
--crashes in ramadisk mode1,2,3,4
-"
+-crashes in ramadisk mode1,2,3,4"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 21/05/23 script v. 150:$Color_Off
--run gp-update 2/3 times
-"
+-run gp-update 2/3 times"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 02.07.23 Version 8.20 is out$Color_Off
 see
-http://gentooplayers.com/news
-"
+http://gentooplayers.com/news"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 06.07.23 reloaded images for EXTRM Version$Color_Off
 see
-http://gentooplayers.com/news
-"
+http://gentooplayers.com/news"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 12.07.23 Update Rpi Kernel v. 6.1.37$Color_Off
-"
+echo -e "$BGreen 12.07.23 Update Rpi Kernel v. 6.1.37$Color_Off"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 26.07.23 Update X86 Kernel$Color_Off
-"
+echo -e "$BGreen 26.07.23 Update X86 Kernel$Color_Off"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 02.10.23 Version 8.30 is out$Color_Off
 see
-http://gentooplayers.com/news
-"
+http://gentooplayers.com/news"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 08.10.23 Update Rpi Kernel$Color_Off
-solve led bug
-"
+solve led bug"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 14.10.23 Update Rpi Kernel$Color_Off
-solve mount bug
-"
+solve mount bug"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 01/11/23 script v. 175:$Color_Off
 update script
 update GP-library Radio
 add GP-library radio playlist creator
-bug fix
-"
+bug fix"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 19/11/23$BRed Rpi5$BGreen version released $Color_Off
-"
+echo -e "$BGreen 19/11/23$BRed Rpi5$BGreen version released $Color_Off"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 03.12.23 Version 8.40 is out$Color_Off
 see
-http://gentooplayers.com/news
-"
+http://gentooplayers.com/news"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 16/12/23 script v. 185:$Color_Off
 update script
 update diretta target and host
-bug fix
-"
+bug fix"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 17/12/23 script v. 186:$Color_Off
+Thanks to a GentooPlayer user, who offered
+the use of his server to host the updates,
+there should be no more problems for the update...
+at least not for downloading :)
+${BRed}gp-update required$Color_Off"
 ##############################################################################
 
 
@@ -339,7 +192,7 @@ bug fix
 echo -e " ────────────────────────────────────────────"
 echo
 echo
-echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version="$scriptv" latest-script-version=$srciptvd$Color_Off"
+echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version=${scriptv} latest-script-version=$srciptvd$Color_Off"
 echo
 echo
 ##############################################################################
