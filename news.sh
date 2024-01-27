@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=191
+srciptvd=192
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -184,6 +184,11 @@ the use of his server to host the updates,
 there should be no more problems for the update...
 at least not for downloading :)
 ${BRed}gp-update required$Color_Off"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 27.01.24 Version 8.50 is out$Color_Off
+see
+http://gentooplayers.com/news"
 ##############################################################################
 
 
