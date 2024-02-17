@@ -193,7 +193,7 @@ http://gentooplayers.com/news"
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 17/02/24 script v. 199:$Color_Off
 Ramsystem-Endpoint menu added:
-really fast and with little ram used.
+really fast and with little ram used
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
 
