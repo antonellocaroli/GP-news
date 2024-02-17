@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=198
+srciptvd=199
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -189,6 +189,12 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 27.01.24 Version 8.50 is out$Color_Off
 see
 http://gentooplayers.com/news"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 17/02/24 script v. 199:$Color_Off
+Ramsystem-Endpoint menu added:
+really fast and with little ram used.
+${BRed}gp-update required$Color_Off"
 ##############################################################################
 
 
