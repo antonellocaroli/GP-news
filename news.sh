@@ -196,6 +196,12 @@ Ramsystem-Endpoint menu added:
 really fast and with little ram used
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 27/02/24 Update Kernel:$Color_Off
+Rpi: 6.1.77 and 6.7.6 ${BRed}(6.7.x is not compatible with allo UsbBridge)$Color_Off
+x86_64: 6.7.5 (240224)
+Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
 
 
 
