@@ -202,6 +202,11 @@ Rpi: 6.1.77 and 6.7.6 ${BRed}(6.7.x is not compatible with allo UsbBridge)$Color
 x86_64: 6.7.5 (240224)
 Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 23.03.24 Version 8.60 is out$Color_Off
+see
+http://gentooplayers.com/news"
+##############################################################################
 
 
 
