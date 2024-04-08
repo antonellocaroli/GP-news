@@ -223,6 +223,7 @@ echo -e "$BGreen 08/04/24 script v. 220:$Color_Off
  .Disable PCI Device
  .Disable USB Device
  .PowerOff USB Port (with uhubctl)
+ -Rpi5: fixed led power off (required firmware update)
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
 
