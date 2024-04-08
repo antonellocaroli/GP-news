@@ -3,7 +3,7 @@
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=219
+srciptvd=220
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -212,6 +212,18 @@ echo -e "$BGreen 24.03.24 Rpi: Kernel 6.8.1-CLTO-TEST released$Color_Off"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 29.03.24 Add supprt for Diretta MemoryPlayHost and MemoryPlayContoller$Color_Off"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08/04/24 script v. 220:$Color_Off
+-update diretta HOST 123_2 (use gp-update before doing the update)
+ .should solve some crashes
+-Improved ramsystem, now it is possible to remove the system disk even on a server PC with network shares and/or other disks
+-Added to ramsystem menu -Root drive unbind-: removes the system disk
+-Aggiunto al menu Sytem config Advanced:
+ .Disable PCI Device
+ .Disable USB Device
+ .PowerOff USB Port (with uhubctl)
+${BRed}gp-update required$Color_Off"
 ##############################################################################
 
 
