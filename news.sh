@@ -219,7 +219,7 @@ echo -e "$BGreen 08/04/24 script v. 220:$Color_Off
  .should solve some crashes
 -Improved ramsystem, now it is possible to remove the system disk even on a server PC with network shares and/or other disks
 -Added to ramsystem menu -Root drive unbind-: removes the system disk
--Aggiunto al menu Sytem config Advanced:
+-Added to Sytem config Advanced menu:
  .Disable PCI Device
  .Disable USB Device
  .PowerOff USB Port (with uhubctl)
