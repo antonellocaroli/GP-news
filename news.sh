@@ -226,7 +226,11 @@ echo -e "$BGreen 08/04/24 script v. 220:$Color_Off
  -Rpi5: fixed led power off (required firmware update)
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 16/04/24 Update Diretta Host and MemoryPlayHost:$Color_Off
+fixed small thread ploblem ALSA
+quit stream problem  MemoryPlayHost (DSD play end noiz)"
+##############################################################################
 
 
 #############
