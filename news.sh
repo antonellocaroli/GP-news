@@ -231,6 +231,10 @@ echo -e "$BGreen 16/04/24 Update Diretta Host and MemoryPlayHost:$Color_Off
 fixed small thread ploblem ALSA
 quit stream problem  MemoryPlayHost (DSD play end noiz)"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 25/04/24 Update Diretta Host and MemoryPlayHost:$Color_Off
+Fixed a problem with noise when changing the number of bits in PCM."
+##############################################################################
 
 
 #############
