@@ -256,10 +256,10 @@ echo
 echo
 echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version=${scriptv} latest-script-version=$srciptvd$Color_Off"
 echo
-echo
-echo -e "$BBlue Ultima version aviabile Diretta:$Color_Off
+echo -e "$BBlue
+Latest aviable version Diretta:$Color_Off
 host $host
-targe $target"
+target $target"
 echo
 echo
 ##############################################################################
