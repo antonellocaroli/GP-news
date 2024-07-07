@@ -1,9 +1,11 @@
 #!/bin/bash
+srciptvd=245
+host=127_12
+target=127_12
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
-srciptvd=245
 scriptc="#02: fix Lan Led Rpi#03: fix backup/restore#04: fix ramsave"
 #
 #
@@ -253,6 +255,11 @@ echo -e " ───────────────────────�
 echo
 echo
 echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version=${scriptv} latest-script-version=$srciptvd$Color_Off"
+echo
+echo
+echo -e "$BBlue Ultima version aviabile Diretta:$Color_Off
+host $host
+targe $target"
 echo
 echo
 ##############################################################################
