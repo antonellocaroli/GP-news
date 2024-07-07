@@ -258,8 +258,8 @@ echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack versio
 echo
 echo -e "$BBlue
 Latest aviable version Diretta:$Color_Off
-host $host
-target $target"
+host $BBlack$host$Color_Off
+target $BBlack$target$Color_Off"
 echo
 echo
 ##############################################################################
