@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=249
+srciptvd=250
 host=131_1
 target=128_2
 . /opt/.gentooplayer/function/felenco.sh
