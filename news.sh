@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=252
+srciptvd=253
 host="132_0: \n-MS mode(ssync salsa) fix not 64bit alignment"
 target="128_2"
 . /opt/.gentooplayer/function/felenco.sh
