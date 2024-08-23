@@ -1,6 +1,6 @@
 #!/bin/bash
 srciptvd=253
-host="132_0: \n-MS mode(ssync salsa) fix not 64bit alignment"
+host="134_0: \n-MS fix ssync resend problem"
 target="128_2"
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
