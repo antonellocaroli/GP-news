@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=253
+srciptvd=254
 host="134_0: \n-MS fix ssync resend problem"
 target="128_2"
 . /opt/.gentooplayer/function/felenco.sh
