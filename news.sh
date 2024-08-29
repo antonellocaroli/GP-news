@@ -1,7 +1,7 @@
 #!/bin/bash
 srciptvd=254
-host="138_1: \n-Reduced Target search time\n-Renumbering in line with official Diretta driver and FW updates."
-target="138_1: \n-Reduced Target search time\n-Renumbering in line with official Diretta driver and FW updates."
+host="139_1: \n-Target search Memory Broken in Host"
+target="139_1: \n-Target search Memory Broken in Host"
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
