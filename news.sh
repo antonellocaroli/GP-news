@@ -1,7 +1,7 @@
 #!/bin/bash
 srciptvd=254
-host="137_1: \n-Minor bug fixes in MS mode\n-Version number reassignment"
-target="137_1: \n-Minor bug fixes in MS mode\n-Version number reassignment"
+host="138_1: \n-Reduced Target search time\n-Renumbering in line with official Diretta driver and FW updates."
+target="138_1: \n-Reduced Target search time\n-Renumbering in line with official Diretta driver and FW updates."
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
