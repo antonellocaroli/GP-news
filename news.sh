@@ -1,6 +1,6 @@
 #!/bin/bash
 srciptvd=254
-host="  139_1:\n-Target search Memory Broken in Host"
+host="139_1:\n-Target search Memory Broken in Host"
 target="139_1:\n-Target search Memory Broken in Host"
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
