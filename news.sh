@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=254
+srciptvd=255
 host="139_1:\n-Target search Memory Broken in Host"
 target="139_1:\n-Target search Memory Broken in Host"
 . /opt/.gentooplayer/function/felenco.sh
@@ -247,6 +247,12 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 21.06.24 Version 8.70 is out$Color_Off
 see
 http://gentooplayers.com/news"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 03/09/24 script v. 255:$Color_Off
+IMPORTANT: Update Ramsystem
+Fix the ramsystem that didn't work!!!
+${BRed}gp-update required$Color_Off"
 ##############################################################################
 
 
