@@ -1,7 +1,7 @@
 #!/bin/bash
 srciptvd=255
-host="139_1:\n-Target search Memory Broken in Host"
-target="139_1:\n-Target search Memory Broken in Host"
+host="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
+target="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
