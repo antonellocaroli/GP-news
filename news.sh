@@ -254,6 +254,12 @@ IMPORTANT: Update Ramsystem
 Fix the ramsystem that didn't work!!!
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08/09/24 Update Kernel:$Color_Off
+Rpi: 6.6.47 + CLTO (240906)
+x86_64: 6.10.2 + CLTO (240906)
+Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
 
 
 #############
