@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=256
+srciptvd=257
 host="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
 target="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
 . /opt/.gentooplayer/function/felenco.sh
