@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=258
+srciptvd=259
 host="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
 target="140_1:\n-Target bug fix\n-Problem detecting second USB-DAC"
 . /opt/.gentooplayer/function/felenco.sh
@@ -259,6 +259,11 @@ echo -e "$BGreen 08/09/24 Update Kernel:$Color_Off
 Rpi: 6.6.47 + CLTO (240906)
 x86_64: 6.10.2 + CLTO (240906)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 23.09.24 Version 8.80 is out$Color_Off
+see
+http://gentooplayers.com/news"
 ##############################################################################
 
 
