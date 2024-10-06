@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=266
+srciptvd=267
 host="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 target="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 . /opt/.gentooplayer/function/felenco.sh
@@ -264,6 +264,11 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 23.09.24 Version 8.80 is out$Color_Off
 see
 http://gentooplayers.com/news"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 06/10/24 script v. 267:$Color_Off
+Add support for ssyncAlsa (diretta sAlsa)
+${BRed}gp-update required$Color_Off"
 ##############################################################################
 
 
