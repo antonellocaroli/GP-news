@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=267
+srciptvd=268
 host="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 target="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 . /opt/.gentooplayer/function/felenco.sh
