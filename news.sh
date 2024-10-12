@@ -271,7 +271,7 @@ Add support for ssyncAlsa (diretta sAlsa)
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 03/09/24 script v. 273:$Color_Off
+echo -e "$BGreen 12/10/24 script v. 273:$Color_Off
 x86_64-EXTRM*: solves the problem with lyrionmusicserver not starting.
 make:
 ${BRed}1) gp-update
