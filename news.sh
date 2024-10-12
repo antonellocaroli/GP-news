@@ -270,7 +270,14 @@ echo -e "$BGreen 06/10/24 script v. 267:$Color_Off
 Add support for ssyncAlsa (diretta sAlsa)
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 03/09/24 script v. 273:$Color_Off
+x86_64-EXTRM*: solves the problem with lyrionmusicserver not starting.
+make:
+${BRed}1) gp-update
+2) Home System > Excute Command > perl-cleaner --reallyall -q
+3) reboot$Color_Off"
+##############################################################################
 
 #############
 echo -e " ────────────────────────────────────────────"
