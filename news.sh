@@ -278,6 +278,11 @@ ${BRed}1) gp-update
 2) Home System > Excute Command > perl-cleaner --reallyall -q
 3) reboot$Color_Off"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 13/10/24 Update Kernel:$Color_Off
+Rpi: 6.11.3-CLTO-TEST (240906) released
+Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
 
 #############
 echo -e " ────────────────────────────────────────────"
