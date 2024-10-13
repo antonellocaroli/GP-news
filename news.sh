@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=273
+srciptvd=274
 host="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 target="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
 . /opt/.gentooplayer/function/felenco.sh
@@ -283,6 +283,7 @@ echo -e "$BGreen 13/10/24 Update Kernel:$Color_Off
 Rpi: 6.11.3-CLTO-TEST (240906) released
 Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
+
 
 #############
 echo -e " ────────────────────────────────────────────"
