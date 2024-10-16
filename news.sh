@@ -283,6 +283,7 @@ echo -e "$BGreen 13/10/24 Update Kernel:$Color_Off
 Rpi: 6.11.3-CLTO-TEST (240906) released
 Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 16/10/24 script v. 275:$Color_Off
 -add Home System > Log > librespot
 -update camillaDSP Install script:
