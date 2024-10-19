@@ -1,7 +1,7 @@
 #!/bin/bash
 srciptvd=275
-host="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
-target="140_1:\n-Fixed problems with the update process.\n-Problem of querying the server even when the update is not targeted."
+host="142_1:\n-small update.\n-Improved memory handling of SINK."
+target="142_2:\n-small update.\n-Improved memory handling of SINK."
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
