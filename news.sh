@@ -297,7 +297,7 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 06/10/24 script v. 277:$Color_Off
 Update diretta Host
 ${BRed}gp-update required
-update/install diretta$Color_Off"
+update/install diretta-host$Color_Off"
 ##############################################################################
 
 #############
