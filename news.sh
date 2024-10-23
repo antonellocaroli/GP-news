@@ -293,6 +293,12 @@ installs per CPU specification, on EXTRM versions it offers two options
 (CPU-specific or CPU-specific+LTO)
 ${BRed}gp-update required$Color_Off"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 06/10/24 script v. 277:$Color_Off
+Update diretta Host
+${BRed}gp-update required
+update/install diretta$Color_Off"
+##############################################################################
 
 #############
 echo -e " ────────────────────────────────────────────"
