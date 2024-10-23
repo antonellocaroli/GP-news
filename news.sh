@@ -1,6 +1,7 @@
 #!/bin/bash
-srciptvd=276
-host="142_1:\n-small update.\n-Improved memory handling of SINK."
+srciptvd=277
+host="142_2:\n-ssync alsa has been added to the setting\n-May provide a limited solution to the buffer under-run problem with high load players such as HQPlayer\nsample\nsyncBufferCount=64\nalsaUnderrun=disable
+"
 target="142_2:\n-small update.\n-Improved memory handling of SINK."
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
