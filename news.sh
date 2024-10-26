@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=277
+srciptvd=278
 host="142_2:\n-ssync alsa has been added to the setting\n-May provide a limited solution to the buffer under-run problem with high load players such as HQPlayer\nsample\nsyncBufferCount=64\nalsaUnderrun=disable
 "
 target="142_2:\n-small update.\n-Improved memory handling of SINK."
@@ -303,6 +303,12 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 26/10/24 Update Kernel:$Color_Off
 x86_64: 6.11.x + CLTO (241024)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 26/10/24 Update librespot v0.5.0:$Color_Off
+https://github.com/librespot-org/librespot/releases/tag/v0.5.0
+compiled versions for specific CPUs are now installed
+on EXTRM systems CPUspecific+LTO"
 ##############################################################################
 
 #############
