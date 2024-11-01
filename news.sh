@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=279
+srciptvd=280
 host="142_2:\n-ssync alsa has been added to the setting\n-May provide a limited solution to the buffer under-run problem with high load players such as HQPlayer\nsample\nsyncBufferCount=64\nalsaUnderrun=disable
 "
 target="142_2:\n-small update.\n-Improved memory handling of SINK."
