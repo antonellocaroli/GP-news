@@ -1,6 +1,8 @@
 #!/bin/bash
 srciptvd=280
-host="142_2:\n-ssync alsa has been added to the setting\n-May provide a limited solution to the buffer under-run problem with high load players such as HQPlayer\nsample\nsyncBufferCount=64\nalsaUnderrun=disable
+host="142_4:\nFixed a problem where audirvana would not restart when using audirvanaStudio with sSyncAlsa because audirvana would not release the driver.
+(Addition of termination processing in SYSTEMD)
+Improve log output
 "
 target="142_2:\n-small update.\n-Improved memory handling of SINK."
 . /opt/.gentooplayer/function/felenco.sh
