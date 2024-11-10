@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=280
+srciptvd=281
 host="142_4:\nFixed a problem where audirvana would not restart when using audirvanaStudio with sSyncAlsa because audirvana would not release the driver.
 (Addition of termination processing in SYSTEMD)
 Improve log output
