@@ -1,8 +1,33 @@
 #!/bin/bash
-srciptvd=282
-host="142_4:\nFixed a problem where audirvana would not restart when using audirvanaStudio with sSyncAlsa because audirvana would not release the driver.
-(Addition of termination processing in SYSTEMD)
-Improve log output
+srciptvd=283
+host="142_5:\n
+UPDATE SalsaHost
+Changed to force DirettaHost to proceed when application is dry-locked ( audirvana is lockd driver
+Added an option to work around some player issues
+
+syncBufferCount
+    Buffer count between ALSA Bridge and packet transmission
+    How many of the specified periodSizen will be allocated as a buffer when the player app opens ALSA
+    default 8
+alsaUnderrun
+    Silent transport when buffer underrun occurs due to player app write delay.
+    In the case of DISABLE, recovery may be difficult due to continued playback
+    default enable
+unInitMemDet
+    If the same content is written from the application to alsa, the part is replaced by mute.
+    It cannot be a complete solution for uninitialized memory.
+    Problem inherently solved by the player.
+
+hqplayer Processing delays cause buffer underruns
+Do not stop playback due to buffer under-run.
+We lengthen the buffer to allow that time.
+alsaUnderrun=disable
+syncBufferCount=32
+
+audirvana problem writes invalid data
+Correction using this option is incorrect
+Replace the abnormal data portion with mute data.
+unInitMemDet=enable
 "
 target="142_2:\n-small update.\n-Improved memory handling of SINK."
 . /opt/.gentooplayer/function/felenco.sh
@@ -311,6 +336,12 @@ echo -e "$BGreen 26/10/24 Update librespot v0.5.0:$Color_Off
 https://github.com/librespot-org/librespot/releases/tag/v0.5.0
 compiled versions for specific CPUs are now installed
 on EXTRM systems CPUspecific+LTO"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 23/11/24 script v. 283:$Color_Off
+Update diretta Host
+${BRed}gp-update required
+update/install diretta-host$Color_Off"
 ##############################################################################
 
 #############
