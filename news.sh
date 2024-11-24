@@ -343,6 +343,12 @@ Update diretta Host
 ${BRed}gp-update required
 update/install diretta-host$Color_Off"
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 24/11/24 Update Kernel:$Color_Off
+Rpi: 6.12.0-CLTO-TEST (241124)
+x86_64: 6.12.1-CLTO (241123)
+Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
 
 #############
 echo -e " ────────────────────────────────────────────"
