@@ -1,35 +1,14 @@
 #!/bin/bash
-srciptvd=283
-host="142_5:\n
+srciptvd=284
+host="142_12:\n
 UPDATE SalsaHost
-Changed to force DirettaHost to proceed when application is dry-locked ( audirvana is lockd driver
-Added an option to work around some player issues
 
-syncBufferCount
-    Buffer count between ALSA Bridge and packet transmission
-    How many of the specified periodSizen will be allocated as a buffer when the player app opens ALSA
-    default 8
-alsaUnderrun
-    Silent transport when buffer underrun occurs due to player app write delay.
-    In the case of DISABLE, recovery may be difficult due to continued playback
-    default enable
-unInitMemDet
-    If the same content is written from the application to alsa, the part is replaced by mute.
-    It cannot be a complete solution for uninitialized memory.
-    Problem inherently solved by the player.
-
-hqplayer Processing delays cause buffer underruns
-Do not stop playback due to buffer under-run.
-We lengthen the buffer to allow that time.
-alsaUnderrun=disable
-syncBufferCount=32
-
-audirvana problem writes invalid data
-Correction using this option is incorrect
-Replace the abnormal data portion with mute data.
-unInitMemDet=enable
+Changed restart process when audio device is locked
+Terminate services such as audirvana first.
 "
-target="142_2:\n-small update.\n-Improved memory handling of SINK."
+target="141_3:\n
+The AlsaInterval option has been added.
+"
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
