@@ -6,7 +6,7 @@ UPDATE SalsaHost
 Changed restart process when audio device is locked
 Terminate services such as audirvana first.
 "
-target="141_3:\n
+target="142_3:\n
 The AlsaInterval option has been added.
 "
 . /opt/.gentooplayer/function/felenco.sh
