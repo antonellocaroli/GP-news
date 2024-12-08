@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=287
+srciptvd=288
 host="142_12:\n
 UPDATE SalsaHost
 
