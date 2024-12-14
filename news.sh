@@ -169,8 +169,8 @@ echo -e "$BGreen #289$Color_Off
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen IMPORTANT:$Color_Off
-Non ci sará piú supporto per LogitechMediaServe,
-per chi lo usa passate il prima possibile a LyrionMusicServer (LMS)"
+There will be no more support for LogitechMediaServe (LMS),
+for those using it switch to LyrionMusicServer (LMS) as soon as possible"
 ##############################################################################
 
 #############
