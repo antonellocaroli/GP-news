@@ -165,8 +165,12 @@ Update/Install/Remove > UP/DW kernel* New"
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #289$Color_Off
 - add umount function
-- improved gp-udate function
-"
+- improved gp-udate function"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen IMPORTANT:$Color_Off
+Non ci sará piú supporto per LogitechMediaServe,
+per chi lo usa passate il prima possibile a LyrionMusicServer (LMS)"
 ##############################################################################
 
 #############
