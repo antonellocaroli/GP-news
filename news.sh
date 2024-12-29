@@ -1,10 +1,13 @@
 #!/bin/bash
-srciptvd=289
-host="142_12:\n
-UPDATE SalsaHost
+srciptvd=290
+host="142_14:\n
+Added Target buffer size to Salsa config.
+ASIO on Windows had a similar setting
 
-Changed restart process when audio device is locked
-Terminate services such as audirvana first.
+LatencyBuffer
+	Try to change the buffer size of Target
+	If 0, Target's standard time is used.
+	Time microsecond
 "
 target="142_3:\n
 The AlsaInterval option has been added.
@@ -171,6 +174,16 @@ echo -e " ───────────────────────�
 echo -e "$BGreen IMPORTANT:$Color_Off
 There will be no more support for LogitechMediaServe (LMS),
 for those using it switch to LyrionMusicServer (LMS) as soon as possible"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 28/12/24 script v. 290:$Color_Off
+Update diretta Host
+${BRed}gp-update required
+update/install diretta-host$Color_Off
+Update Kernel:
+Rpi: 6.12.6/CLTO (241828)
+x86_64: 6.12.7/CLTO (241228)
+Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
 
 #############
