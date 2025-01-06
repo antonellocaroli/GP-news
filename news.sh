@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=290
+srciptvd=291
 host="142_14:\n
 Added Target buffer size to Salsa config.
 ASIO on Windows had a similar setting
@@ -184,6 +184,13 @@ Update Kernel:
 Rpi: 6.12.6/CLTO (241828)
 x86_64: 6.12.7/CLTO (241228)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #291$Color_Off
+- Fix kernel mirror adress
+${BRed}gp-update is required if you need to use:
+UP/DW kernel* New$Color_Off"
 ##############################################################################
 
 #############
