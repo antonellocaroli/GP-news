@@ -1,16 +1,18 @@
 #!/bin/bash
 srciptvd=291
-host="142_14:\n
-Added Target buffer size to Salsa config.
-ASIO on Windows had a similar setting
-
-LatencyBuffer
-	Try to change the buffer size of Target
-	If 0, Target's standard time is used.
-	Time microsecond
+host="143_1:\n
+Improvement of Id3 reading of MemoryPlayController
+Added sink MS mode2 (improved memory alignment)
+Improved recovery of communication errors in MS mode for sink
+Improved recovery of sync communication errors
+remove sync waste packets MS mode
 "
-target="142_3:\n
-The AlsaInterval option has been added.
+target="143_1:\n
+Improvement of Id3 reading of MemoryPlayController
+Added sink MS mode2 (improved memory alignment)
+Improved recovery of communication errors in MS mode for sink
+Improved recovery of sync communication errors
+remove sync waste packets MS mode
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
