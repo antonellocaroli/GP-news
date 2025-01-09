@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=291
+srciptvd=292
 host="143_1:\n
 Improvement of Id3 reading of MemoryPlayController
 Added sink MS mode2 (improved memory alignment)
