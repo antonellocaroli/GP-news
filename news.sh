@@ -1,11 +1,8 @@
 #!/bin/bash
 srciptvd=292
-host="143_1:\n
-Improvement of Id3 reading of MemoryPlayController
-Added sink MS mode2 (improved memory alignment)
-Improved recovery of communication errors in MS mode for sink
-Improved recovery of sync communication errors
-remove sync waste packets MS mode
+host="143_2:\n
+Fixes an issue where ALSA entries would be duplicated if
+the target was restarted in SAlsa.
 "
 target="143_1:\n
 Improvement of Id3 reading of MemoryPlayController
