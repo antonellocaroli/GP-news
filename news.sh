@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=293
+srciptvd=294
 host="143_2:\n
 Fixes an issue where ALSA entries would be duplicated if
 the target was restarted in SAlsa.
@@ -190,6 +190,11 @@ echo -e "$BGreen #291$Color_Off
 - Fix kernel mirror adress
 ${BRed}gp-update is required if you need to use:
 UP/DW kernel* New$Color_Off"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 17.02.25 Version 8.90 is out$Color_Off
+see
+http://gentooplayers.com/news"
 ##############################################################################
 
 #############
