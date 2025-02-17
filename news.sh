@@ -1,8 +1,7 @@
 #!/bin/bash
 srciptvd=294
-host="143_2:\n
-Fixes an issue where ALSA entries would be duplicated if
-the target was restarted in SAlsa.
+host="143_7:\n
+Fixed a problem where the Host could not connect to the old Target.
 "
 target="143_1:\n
 Improvement of Id3 reading of MemoryPlayController
