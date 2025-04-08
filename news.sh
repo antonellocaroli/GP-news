@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=294
+srciptvd=295
 host="143_7:\n
 Fixed a problem where the Host could not connect to the old Target.
 "
@@ -207,6 +207,10 @@ Rpi: 6.12.21-TEST/CLTO (250403)
 Rpi: 6.14.0-CLTO-TEST
 x86_64: 6.14.0/CLTO (250403)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #295$Color_Off
+- improved Network_Bridge function"
 ##############################################################################
 
 #############
