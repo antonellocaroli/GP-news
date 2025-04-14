@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=295
+srciptvd=296
 host="143_7:\n
 Fixed a problem where the Host could not connect to the old Target.
 "
@@ -211,6 +211,10 @@ Update/Install/Remove > UP/DW kernel* New"
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #295$Color_Off
 - improved Network_Bridge function"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #296$Color_Off
+- Network_Bridge fix internet connection"
 ##############################################################################
 
 #############
