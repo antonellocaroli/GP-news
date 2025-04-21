@@ -1,14 +1,12 @@
 #!/bin/bash
 srciptvd=296
-host="143_7:\n
-Fixed a problem where the Host could not connect to the old Target.
+host="143_8:\n
+Rolling update of the development environment.
+There are no modifications that affect the operation.
 "
-target="143_1:\n
-Improvement of Id3 reading of MemoryPlayController
-Added sink MS mode2 (improved memory alignment)
-Improved recovery of communication errors in MS mode for sink
-Improved recovery of sync communication errors
-remove sync waste packets MS mode
+target="143_5:\n
+Rolling update of the development environment.
+There are no modifications that affect the operation.
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
