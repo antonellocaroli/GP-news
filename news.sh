@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=296
+srciptvd=297
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -213,6 +213,10 @@ echo -e "$BGreen #295$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #296$Color_Off
 - Network_Bridge fix internet connection"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #297$Color_Off
+- time correction in rammode"
 ##############################################################################
 
 #############
