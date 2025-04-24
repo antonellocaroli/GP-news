@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=297
+srciptvd=298
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -217,6 +217,11 @@ echo -e "$BGreen #296$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #297$Color_Off
 - time correction in rammode"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #298$Color_Off
+- correction of some display bugs
+- MemoryPlayerHost/controller install fix"
 ##############################################################################
 
 #############
