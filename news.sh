@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=299
+srciptvd=300
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -227,7 +227,15 @@ echo -e " ───────────────────────�
 echo -e "$BGreen #299$Color_Off
 - time correction in rammode up"
 ##############################################################################
-#############
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #300$Color_Off
+Delay option added to squeezelite configuration
+-Delay format: delay switching between PCM and DSD in ms, defaul 0
+-Delay rate: delay switching rates in ms, defaul 0"
+##############################################################################
+
+
+
 echo -e " ────────────────────────────────────────────"
 echo
 echo
