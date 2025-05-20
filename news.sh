@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=302
+srciptvd=303
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -248,6 +248,10 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 13.05.25 Version 9.00 is out$Color_Off
 see
 http://gentooplayers.com/news"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #303$Color_Off
+fix bug in -Set kernel parameters-RT Clock"
 ##############################################################################
 
 
