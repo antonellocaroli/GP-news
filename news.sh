@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=304
+srciptvd=305
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -255,6 +255,10 @@ fix bug in -Set kernel parameters-RT Clock"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #304$Color_Off
+minor fix"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #305$Color_Off
 minor fix"
 ##############################################################################
 
