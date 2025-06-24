@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=305
+srciptvd=306
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -266,6 +266,13 @@ echo -e "$BGreen 17/06/25 Update Kernel:$Color_Off
 Rpi: 6.15.2-CLTO-TEST (250616)
 x86_64: 6.15.2-CLTO (250616)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #306$Color_Off
+Add audirvana in EXPERT-I
+requires:
+1) GP-update
+2) Software manager > Update > gpbin"
 ##############################################################################
 
 
