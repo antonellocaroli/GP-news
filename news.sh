@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=307
+srciptvd=308
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -273,6 +273,10 @@ Add audirvana in EXPERT-I
 requires:
 1) GP-update
 2) Software manager > Update > gpbin"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #308$Color_Off
+minor fix"
 ##############################################################################
 
 
