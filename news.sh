@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=308
+srciptvd=309
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -283,6 +283,16 @@ echo -e "$BGreen 13/07/25 Update Kernel:$Color_Off
 x86_64: 6.15.6/CLTO (250713)
 fix bug with ST-RT adn Diretta_host
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #309$Color_Off
+add script \"${BRed}System Config Advanced > Synchronize Timer$Color_Off\"
+INFO:
+• Synchronize the system clock across multiple PCs
+• By default, GentooPlayer already synchronizes system clocks at boot using the same online time server, so this feature is not strictly necessary unless you want to keep clocks synchronized with deviations of just a few microseconds
+• This script must be executed only on the server PC; the client(s) will be configured automatically
+• Before using this feature, make sure SSH is enabled on the client(s)
+• This script works in all setups: PCs connected through a router/switch or directly connected, with or without a network bridge on the server PC."
 ##############################################################################
 
 
