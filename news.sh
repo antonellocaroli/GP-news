@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=309
+srciptvd=310
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -293,6 +293,21 @@ INFO:
 • This script must be executed only on the server PC; the client(s) will be configured automatically
 • Before using this feature, make sure SSH is enabled on the client(s)
 • This script works in all setups: PCs connected through a router/switch or directly connected, with or without a network bridge on the server PC."
+##############################################################################
+echo -e "$BGreen #310$Color_Off
+add script \"${BRed}Utility > Execute commands via SSH$Color_Off\"
+INFO:
+Use this function only if the client PC is directly connected to this PC via LAN cable, without any switch, router, or network bridge.
+Available commands:
+System Info
+Disable Ramsystem
+Re-enable the RamSystem that was previously disabled.
+Service Restatrt
+Free Ram
+Disk space
+Top 10 processes by memory
+Top 10 processes by CPU
+"
 ##############################################################################
 
 
