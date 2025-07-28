@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=310
+srciptvd=311
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -307,6 +307,15 @@ Free Ram
 Disk space
 Top 10 processes by memory
 Top 10 processes by CPU
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #311$Color_Off
+-fix Synchronize Timer
+-fix Execute commands via SSH
+-update Ramsystem
+requires:
+GP-Update on both the server and clients.
 "
 ##############################################################################
 
