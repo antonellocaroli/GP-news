@@ -294,6 +294,7 @@ INFO:
 • Before using this feature, make sure SSH is enabled on the client(s)
 • This script works in all setups: PCs connected through a router/switch or directly connected, with or without a network bridge on the server PC."
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #310$Color_Off
 add script \"${BRed}Utility > Execute commands via SSH$Color_Off\"
 INFO:
