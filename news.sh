@@ -331,6 +331,8 @@ cho -e " ───────────────────────�
 echo -e "$BGreen 29/07/25 Update Kernel:$Color_Off
 x86_64: 6.15.8/CLTO (250726)
 fix bug 6.15.x-CLTO
+Add ZEN5-CLTO
+Add SKYLAKE-AVX512-CLTO
 Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
 
