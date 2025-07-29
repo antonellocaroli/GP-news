@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=311
+srciptvd=312
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -317,6 +317,14 @@ echo -e "$BGreen #311$Color_Off
 -update Ramsystem
 requires:
 GP-Update on both the server and clients.
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #312$Color_Off
+-update Synchronize Timer
+-update Execute commands via SSH
+requires:
+GP-Update on the server_pc.
 "
 ##############################################################################
 
