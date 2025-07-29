@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=312
+srciptvd=313
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -334,6 +334,15 @@ fix bug 6.15.x-CLTO
 Add ZEN5-CLTO
 Add SKYLAKE-AVX512-CLTO
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #313$Color_Off
+Update script \"${BRed}Udate/Install/Remove > Install Nvidia driver$Color_Off\"
+INFO:
+• Works with all kernels, ${BRed}including RT kernels and CLTO-Kernels${Color_Off}, listed under \"System Base Config > Selectkernel\".
+• If you update or switch the kernel version (\"Update/Install/Remove > UP/DW kernel New\"), you must repeat this procedure.
+• The driver will be installed on the currently running kernel. If you want to install it on a different kernel from the Selectkernel list, first select it, reboot the system, and then run this operation again.
+• Requires kernel version 6.15.7 or newer."
 ##############################################################################
 
 
