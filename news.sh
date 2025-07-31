@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=313
+srciptvd=314
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -343,6 +343,14 @@ INFO:
 • If you update or switch the kernel version (\"Update/Install/Remove > UP/DW kernel New\"), you must repeat this procedure.
 • The driver will be installed on the currently running kernel. If you want to install it on a different kernel from the Selectkernel list, first select it, reboot the system, and then run this operation again.
 • Requires kernel version 6.15.7 or newer."
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #314$Color_Off
+-update Execute commands via SSH:
+added gp-update to the menu
+requires:
+GP-Update on the server_pc.
+"
 ##############################################################################
 
 
