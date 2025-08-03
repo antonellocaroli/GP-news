@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=314
+srciptvd=315
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -350,6 +350,15 @@ echo -e "$BGreen #314$Color_Off
 added gp-update to the menu
 requires:
 GP-Update on the server_pc.
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #315$Color_Off
+-Add Update/Insatll/Remove > Install GP
+-Add Update/Insatll/Remove > Copy GentooPlayer/Backup
+-Add to shell time_sync
+-Add to shell ssh_commands
+-Update time sync - add Synchronise now
 "
 ##############################################################################
 
