@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=316
+srciptvd=317
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
