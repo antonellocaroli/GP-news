@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=317
+srciptvd=318
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -361,7 +361,20 @@ echo -e "$BGreen #315$Color_Off
 -Update time sync - add Synchronise now
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 08/08/25 Update Kernel:$Color_Off
+Rpi: 6.16.0-CLTO-TEST (250808)
+Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #318$Color_Off
+Important update for Rpi*:
+fix fingerprint on RPI*
+Recommended:
+1) GP-Update
+2) Reregister system
+"
+##############################################################################
 
 echo -e " ────────────────────────────────────────────"
 echo
