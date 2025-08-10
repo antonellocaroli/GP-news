@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=319
+srciptvd=320
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -385,6 +385,11 @@ deactivate these functions before GP-Update.
 REQUIRES:
 1) GP-update
 2) Software manager > Update > gpbin"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #320$Color_Off
+fix \"01. Set IRQ/Threads\"
+"
 ##############################################################################
 #echo -e " ────────────────────────────────────────────"
 #echo -e "$BGreen 08/08/25 Update Kernel:$Color_Off
