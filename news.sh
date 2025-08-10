@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=318
+srciptvd=319
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -374,6 +374,17 @@ Recommended:
 1) GP-Update
 2) Reregister system
 "
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #319$Color_Off
+-fix time_sync bug
+-Update script \"10. System Expert-I\"
+WARNING:
+If you are using the functions in \"01. Set IRQ\" and \"02. Set process USB/ETH\"
+deactivate these functions before GP-Update.
+REQUIRES:
+1) GP-update
+2) Software manager > Update > gpbin"
 ##############################################################################
 #echo -e " ────────────────────────────────────────────"
 #echo -e "$BGreen 08/08/25 Update Kernel:$Color_Off
