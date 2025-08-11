@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=321
+srciptvd=322
 host="143_8:\n
 Rolling update of the development environment.
 There are no modifications that affect the operation.
@@ -387,7 +387,7 @@ REQUIRES:
 2) Software manager > Update > gpbin"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen #321$Color_Off
+echo -e "$BGreen #322$Color_Off
 -fix \"01. Set IRQ/Threads\"
 "
 ##############################################################################
