@@ -1,12 +1,10 @@
 #!/bin/bash
-srciptvd=324
-host="143_8:\n
-Rolling update of the development environment.
-There are no modifications that affect the operation.
+srciptvd=325
+host="143_9:\n
+Add gcc15 library.
 "
-target="143_5:\n
-Rolling update of the development environment.
-There are no modifications that affect the operation.
+target="143_9:\n
+Add gcc15 library.
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
@@ -389,6 +387,15 @@ REQUIRES:
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #324$Color_Off
 -fix \"01. Set IRQ/Threads\"
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #325$Color_Off
+-update \"System Expert-I > 02. Set Software process\"
+-udate script install diretta host an target
+REQUIRES:
+1) GP-update
+2) Software manager > Update > gpbin
 "
 ##############################################################################
 #echo -e " ────────────────────────────────────────────"
