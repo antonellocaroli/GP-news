@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=325
+srciptvd=326
 host="143_9:\n
 Add gcc15 library.
 "
@@ -396,6 +396,11 @@ echo -e "$BGreen #325$Color_Off
 REQUIRES:
 1) GP-update
 2) Software manager > Update > gpbin
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #326$Color_Off
+-fix script install diretta host an target
 "
 ##############################################################################
 #echo -e " ────────────────────────────────────────────"
