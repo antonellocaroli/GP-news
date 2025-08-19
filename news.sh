@@ -3,8 +3,8 @@ srciptvd=326
 host="143_9:\n
 Add gcc15 library.
 "
-target="143_5:\n
-
+target="143_9:\n
+Add gcc15 library.
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
