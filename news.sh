@@ -401,10 +401,12 @@ echo -e "$BGreen #326$Color_Off
 -fix script install diretta host an target
 "
 ##############################################################################
-#echo -e " ────────────────────────────────────────────"
-#echo -e "$BGreen 08/08/25 Update Kernel:$Color_Off
-#Rpi: 6.16.0-CLTO-TEST (250808)
-#Update/Install/Remove > UP/DW kernel New*"
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 20/08/25 Update Kernel:$Color_Off
+Rpi: 6.12.41/CLTO (250819)
+Rpi: 6.16.1-CLTO-TEST (250819)
+Update/Install/Remove > UP/DW kernel New*
+${BReed}WARNING:$Color_Off Before updating the kernel, use GP_UPDATE."
 ##############################################################################
 
 echo -e " ────────────────────────────────────────────"
