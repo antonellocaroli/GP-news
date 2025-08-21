@@ -408,6 +408,21 @@ Rpi: 6.16.1-CLTO-TEST (250819)
 Update/Install/Remove > UP/DW kernel New*
 ${BRed}WARNING:$Color_Off Before updating the kernel, use GP_UPDATE."
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 21/08/25 Update Kernel:$Color_Off
+X86: 6.16.1
+250819
+250819-ALDERLAKE-CLTO
+250819-RAPTORLAKE-CLTO
+250819-SKYLAKE-AVX512-CLTO
+250819-SKYLAKE-CLTO
+250819-ZEN3-CLTO
+250819-ZEN4-CLTO
+250819-ZEN5-CLTO
+250819-x86-64-v2-CLTO
+250819-x86-64-v3-CLTO
+Update/Install/Remove > UP/DW kernel New*"
+##############################################################################
 
 echo -e " ────────────────────────────────────────────"
 echo
