@@ -406,7 +406,8 @@ echo -e "$BGreen 20/08/25 Update Kernel:$Color_Off
 Rpi: 6.12.41/CLTO (250819)
 Rpi: 6.16.1-CLTO-TEST (250819)
 Update/Install/Remove > UP/DW kernel New*
-${BRed}WARNING:$Color_Off Before updating the kernel, use GP_UPDATE."
+${BRed}WARNING:$Color_Off Before updating the kernel, use GP_UPDATE.
+reboot and GP_UPDATE again"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 21/08/25 Update Kernel:$Color_Off
