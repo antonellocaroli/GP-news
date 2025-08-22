@@ -1,8 +1,8 @@
 #!/bin/bash
 srciptvd=326
-host="143_8:\n
+host="143_11:\n
 "
-target="143_5:\n
+target="143_11:\n
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
