@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=327
+srciptvd=328
 host="143_11:\n
 "
 target="143_11:\n
@@ -427,6 +427,11 @@ Update/Install/Remove > UP/DW kernel New*"
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #327$Color_Off
 -Update script install diretta
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #328$Color_Off
+-fix script \"update Execute commands via SSH\"
 "
 ##############################################################################
 
