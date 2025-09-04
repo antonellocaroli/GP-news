@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=328
+srciptvd=329
 host="143_11:\n
 "
 target="143_11:\n
@@ -432,6 +432,11 @@ echo -e "$BGreen #327$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #328$Color_Off
 -fix script \"update Execute commands via SSH\"
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #329$Color_Off
+-fix script \"CamillaDSP Install\"
 "
 ##############################################################################
 
