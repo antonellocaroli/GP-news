@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=329
+srciptvd=330
 host="143_11:\n
 "
 target="143_11:\n
@@ -437,6 +437,18 @@ echo -e "$BGreen #328$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #329$Color_Off
 -fix script \"CamillaDSP Install\"
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #330$Color_Off
+-Added frontend for DirettaMemoryPlayer
+Update/Install/Remove > Software Manager > Audio > diretta-web
+You can enable it from 05. Enable/Disable Software
+To access the WI, see:
+06. Player/Audio Setting > 0. WebPage Software
+Richiesto:
+GP-update
+MemoryPlayHost and MemoryPlayController must be reinstalled.
 "
 ##############################################################################
 
