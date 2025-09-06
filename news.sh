@@ -446,7 +446,7 @@ Update/Install/Remove > Software Manager > Audio > diretta-web
 You can enable it from 05. Enable/Disable Software
 To access the WI, see:
 06. Player/Audio Setting > 0. WebPage Software
-Richiesto:
+Required:
 GP-update
 MemoryPlayHost and MemoryPlayController must be reinstalled.
 "
