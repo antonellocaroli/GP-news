@@ -1,8 +1,9 @@
 #!/bin/bash
-srciptvd=330
-host="143_11:\n
+srciptvd=331
+host="143_31:\n
+144_0 Sperimental
 "
-target="143_11:\n
+target="143_30:\n
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
@@ -449,6 +450,12 @@ To access the WI, see:
 Required:
 GP-update
 MemoryPlayHost and MemoryPlayController must be reinstalled.
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #331$Color_Off
+-Update Diretta
+-Add script \"Sytem Configure Adavanced > MTU Setting\"
 "
 ##############################################################################
 
