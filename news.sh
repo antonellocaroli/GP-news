@@ -1,27 +1,8 @@
 #!/bin/bash
 srciptvd=331
-host="144_2:\n
-Fix for the issue of long communication timeout periods for all HOST
-Changing the MemoruPlayController Timeout Duration
-Update regarding the Diretta Host feature
-Please use the previous 143_30 as the target.
-
-Jumbo Frame Support
-This is an internal issue, but packet processing has undergone significant changes.
-
-Settings have been added.
-https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
-https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
-
-SAlsa SMemoryPlayHost has been discontinued.
-Sync -> X
-SSync -> Sync
-SyncBuffer -> X
-SSyncBuffer -> SyncBuffer
-SAlsa -> X
-SAlsa -> Alsa
-SMemoryPlayHost -> X
-SMemoryPlayHost -> MemoryPlayHost
+host="144_3:\n
+Fixed a minor Sync issue; minimal impact.
+The initial settings for MemoryPlay were configured for debugging, so I rolled them back.
 "
 target="143_30:\n
 "
