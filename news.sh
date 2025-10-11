@@ -1,8 +1,17 @@
 #!/bin/bash
 srciptvd=331
-host="144_3:\n
-Fixed a minor Sync issue; minimal impact.
-The initial settings for MemoryPlay were configured for debugging, so I rolled them back.
+host="144_5:\n
+MemoryPlayer freezes when sending a Connect request during playback
+A serious problem occurred.
+Issue where UDP transmission is not performed on the HOST
+
+144_1:
+Jumbo Frame Support
+This is an internal issue, but packet processing has undergone significant changes.
+
+Settings have been added.
+https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
+https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
 target="143_30:\n
 "
