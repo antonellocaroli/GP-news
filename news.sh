@@ -475,9 +475,11 @@ echo -e "$BGreen #332$Color_Off
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 24/10/25 Update Kernel:$Color_Off
-Rpi: 6.12.54-TEST/CLTO (251023)
-Rpi: 6.17.4-CLTO-TEST (251023)
-x86_64: 6.17.4/CLTO (251022)
+-Rpi: 6.12.54-TEST/CLTO (251023)
+-Rpi: 6.17.4-CLTO-TEST (251023)
+Unless there is a malfunction, these two versions should be compatible with
+allo-USBridgeSig
+-x86_64: 6.17.4/CLTO (251022)
 Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
 
