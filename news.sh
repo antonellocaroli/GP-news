@@ -1,6 +1,16 @@
 #!/bin/bash
-srciptvd=331
-host="144_5:\n
+srciptvd=333
+host="146_1:\n
+We are releasing a preview version compatible with Diretta Direct Stream (DDS)
+Adjustments are not yet complete, and issues may arise.
+When the DDS degree field is loaded, activating target 146 will make it available.
+The host runs on Linux where SOCK_RAW is available for 146.
+DDS utilizes the L2 layer directly for stream transfer.
+https://help.diretta.link/en/support/solutions/articles/73000661018-146
+
+145_1:
+
+144_5:
 MemoryPlayer freezes when sending a Connect request during playback
 A serious problem occurred.
 Issue where UDP transmission is not performed on the HOST
@@ -13,7 +23,13 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="143_30:\n
+target="146_2:\n
+We are releasing a preview version compatible with Diretta Direct Stream (DDS)
+Adjustments are not yet complete, and issues may arise.
+When the DDS degree field is loaded, activating target 146 will make it available.
+The host runs on Linux where SOCK_RAW is available for 146.
+DDS utilizes the L2 layer directly for stream transfer.
+https://help.diretta.link/en/support/solutions/articles/73000661018-146
 "
 . /opt/.gentooplayer/function/felenco.sh
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
@@ -481,6 +497,11 @@ Unless there is a malfunction, these two versions should be compatible with
 allo-USBridgeSig
 -x86_64: 6.17.4/CLTO (251022)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #333$Color_Off
+-Add Diretta >  Diretta Target - DDS
+"
 ##############################################################################
 
 
