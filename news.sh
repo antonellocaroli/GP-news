@@ -1,6 +1,10 @@
 #!/bin/bash
 srciptvd=333
-host="146_1:\n
+host="146_4:\n
+Fixed packet corruption issue with DDS driver when using USB-Ether
+Fixed minor issues related to the host
+
+146_1:
 We are releasing a preview version compatible with Diretta Direct Stream (DDS)
 Adjustments are not yet complete, and issues may arise.
 When the DDS degree field is loaded, activating target 146 will make it available.
@@ -24,6 +28,10 @@ https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-se
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
 target="146_2:\n
+Fixed packet corruption issue with DDS driver when using USB-Ether
+Fixed minor issues related to the host
+
+146_2:
 We are releasing a preview version compatible with Diretta Direct Stream (DDS)
 Adjustments are not yet complete, and issues may arise.
 When the DDS degree field is loaded, activating target 146 will make it available.
