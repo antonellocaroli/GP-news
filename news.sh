@@ -514,7 +514,7 @@ echo -e "$BGreen #333$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 25/10/27 Update Kernel:$Color_Off
 info: include DDS driver updaten, previous kernels removed, news 25/10/25
--Rpi: 6.12.55-TEST/CLTO (251026)
+-Rpi: 6.12.55/CLTO (251026)
 -Rpi: 6.17.5-CLTO-TEST (251026)
 Unless there is a malfunction, these two versions should be compatible with
 allo-USBridgeSig
