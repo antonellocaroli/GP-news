@@ -1,5 +1,5 @@
 #!/bin/bash
-srciptvd=333
+srciptvd=334
 host="146_4:\n
 Fixed packet corruption issue with DDS driver when using USB-Ether
 Fixed minor issues related to the host
@@ -520,6 +520,11 @@ Unless there is a malfunction, these two versions should be compatible with
 allo-USBridgeSig
 -x86_64: 6.17.5/CLTO (251026)
 Update/Install/Remove > UP/DW kernel* New"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #334$Color_Off
+-Ramsystem EndPoint - Add module options 
+"
 ##############################################################################
 
 
