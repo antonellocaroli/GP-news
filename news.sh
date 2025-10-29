@@ -1,6 +1,11 @@
 #!/bin/bash
-srciptvd=334
-host="146_4:\n
+srciptvd=335
+host="146_5:\n
+Fixed connections to the Target would fail when the connection interval was short in Mode3.
+Fixed not waiting for the host's Disconnect
+Fixed connections disconnect when HostDebug is enabled in Mode3
+
+146_4:
 Fixed packet corruption issue with DDS driver when using USB-Ether
 Fixed minor issues related to the host
 
@@ -28,6 +33,12 @@ https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-se
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
 target="146_2:\n
+$BRed required module DDS update$Color_Off
+Fixed connections to the Target would fail when the connection interval was short in Mode3.
+Fixed not waiting for the host's Disconnect
+Fixed connections disconnect when HostDebug is enabled in Mode3
+
+146_2:
 Fixed packet corruption issue with DDS driver when using USB-Ether
 Fixed minor issues related to the host
 
@@ -523,7 +534,12 @@ Update/Install/Remove > UP/DW kernel* New"
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #334$Color_Off
--Ramsystem EndPoint - Add module options 
+-Ramsystem EndPoint - Add module options
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #335$Color_Off
+-Add Diretta >  Diretta Module Update
 "
 ##############################################################################
 
