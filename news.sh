@@ -17,8 +17,6 @@ The host runs on Linux where SOCK_RAW is available for 146.
 DDS utilizes the L2 layer directly for stream transfer.
 https://help.diretta.link/en/support/solutions/articles/73000661018-146
 
-145_1:
-
 144_5:
 MemoryPlayer freezes when sending a Connect request during playback
 A serious problem occurred.
