@@ -33,7 +33,6 @@ https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-se
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
 target="146_2:\n
-$BRed required module DDS update$Color_Off
 Fixed connections to the Target would fail when the connection interval was short in Mode3.
 Fixed not waiting for the host's Disconnect
 Fixed connections disconnect when HostDebug is enabled in Mode3
@@ -540,6 +539,8 @@ echo -e "$BGreen #334$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #335$Color_Off
 -Add Diretta >  Diretta Module Update
+-Update diretta target and host 146_5
+$BRed required module DDS update$Color_Off
 "
 ##############################################################################
 
