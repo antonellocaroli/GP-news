@@ -32,7 +32,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="146_2:\n
+target="146_5:\n
 Fixed connections to the Target would fail when the connection interval was short in Mode3.
 Fixed not waiting for the host's Disconnect
 Fixed connections disconnect when HostDebug is enabled in Mode3
