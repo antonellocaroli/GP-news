@@ -1,4 +1,5 @@
 #!/bin/bash
+. /opt/.gentooplayer/function/felenco.sh
 srciptvd=335
 host="146_5:\n
 Fixed connections to the Target would fail when the connection interval was short in Mode3.
@@ -47,7 +48,7 @@ The host runs on Linux where SOCK_RAW is available for 146.
 DDS utilizes the L2 layer directly for stream transfer.
 https://help.diretta.link/en/support/solutions/articles/73000661018-146
 "
-. /opt/.gentooplayer/function/felenco.sh
+
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
 gpmodel=$(sed -n 16p /etc/default/.hw_model)
 scriptv=$(sed -n 1p /etc/default/.script_version 2>/dev/null)
@@ -548,12 +549,6 @@ echo
 echo
 echo -e "$BRed GentooPlayer $Color_Off $BBlue $gpmodel $Color_Off $BBlack version-GP=$gpversion script-version=${scriptv} latest-script-version=$srciptvd$Color_Off"
 echo
-echo -e "$BBlue
-Latest aviable version Diretta:$Color_Off
-host $BBlack$host$Color_Off
-target $BBlack$target$Color_Off"
-echo
-echo
 ##############################################################################
 if [ "$scriptv" -lt "$srciptvd" ]; then
   echo -e "$BRed ******************WARNING*******************$Color_Off"
@@ -566,6 +561,14 @@ else
   echo -e " ────────────────────────────────────────────"
 fi
 ##############################################################################
+echo
+echo -e "$BBlue
+Latest aviable version Diretta:$Color_Off
+host $host
+target $target"
+echo
+echo
+
 ############
 exit 0
 ###########
