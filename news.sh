@@ -1,18 +1,11 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=335
-host="146_6:\n
-No difference in operation.
-Fixed a compiler issue with the DDS driver.
-Reduce Sink system calls
-Merged the code being worked on by Host
-This is an update due to changes in the source code.
-It does not involve bug fixes or functional changes.
+host="146_7:\n
+Modify the DDS Driver description to Classic C
+Resolves duplicate thread interrupts when interrupts are delayed in the DDS Driver
+(Countermeasures in Environments Where Network Interrupts Do Not Occur Primitively)
 *The EtherType for DDS is currently under review by IEEE.
-There were posts on social media about DDS causing CPU bursts on Raspberry Pi 4, but in my tests, I did not observe that behavior.
-https://www.facebook.com/DirettaAudio/posts/pfbid0hXrn9UWEpvhjyd6tGuB82RCGt2yxtpyUPLVQzK3R7vmQNT9hiqJiAic25murjfjyl
-https://www.instagram.com/dnegozio/p/DQde5CREegs/
-https://www.instagram.com/dnegozio/p/DQdX4ctkdzz/
 
 146_5:
 Fixed connections to the Target would fail when the connection interval was short in Mode3.
@@ -44,7 +37,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="146_6:\n
+target="146_7:\n
 $BRed Required: module DDS Update$Color_Off
 Same as host
 
