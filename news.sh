@@ -38,7 +38,7 @@ https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-se
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
 target="146_7:
-$BRed Required: module DDS Update$Color_Off
+${BRed}Required: module DDS Update$Color_Off
 Same as host
 
 
@@ -573,8 +573,9 @@ fi
 echo
 echo -e "$BBlue
 Latest aviable version Diretta:$Color_Off
-host $host
-target $target"
+${UGreen}Host$Color_Off $host
+${UGreen}Target$Color_Off $target
+"
 echo
 echo
 
