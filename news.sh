@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=335
+srciptvd=336
 host="146_7:
 Modify the DDS Driver description to Classic C
 Resolves duplicate thread interrupts when interrupts are delayed in the DDS Driver
@@ -443,6 +443,11 @@ echo -e "$BGreen #335$Color_Off
 -Add Diretta >  Diretta Module Update
 -Update diretta target and host 146_5
 $BRed required module DDS update$Color_Off
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #336$Color_Off
+-x86 fix: Update/Install/Remove > UP/DW kernel
 "
 ##############################################################################
 
