@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=337
+srciptvd=338
 host="146_7:
 Modify the DDS Driver description to Classic C
 Resolves duplicate thread interrupts when interrupts are delayed in the DDS Driver
@@ -453,6 +453,11 @@ echo -e "$BGreen #336$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #337$Color_Off
 -Update: Diretta Target - DDS
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #338$Color_Off
+-fix bug: GP-Install script
 "
 ##############################################################################
 
