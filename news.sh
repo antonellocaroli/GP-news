@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=338
+srciptvd=339
 host="146_7:
 Modify the DDS Driver description to Classic C
 Resolves duplicate thread interrupts when interrupts are delayed in the DDS Driver
@@ -458,6 +458,16 @@ echo -e "$BGreen #337$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #338$Color_Off
 -fix bug: GP-Install script
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #339$Color_Off
+-Update: script MTU Setting
+Select Interface only displays interfaces that support an MTU MAX greater than
+1500. This prevents users from changing the MTU on interfaces where they absolutely
+should not.
+-Update/Release of new Kernels
+see list available at Update/Install/Remove > UP/DW kernel
 "
 ##############################################################################
 
