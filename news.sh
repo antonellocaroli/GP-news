@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=339
+srciptvd=340
 host="147_03:
 A problem that occurred in rare cases and had existed for quite some time
 When DAC playback starts significantly late, the information for host synchronization becomes abnormal.
@@ -483,6 +483,11 @@ Select Interface only displays interfaces that support an MTU MAX greater than
 should not.
 -Update/Release of new Kernels
 see list available at Update/Install/Remove > UP/DW kernel
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #340$Color_Off
+-add: Home System > Log > Diretta_Target
 "
 ##############################################################################
 
