@@ -1,7 +1,13 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=339
-host="147_0:
+host="147_03:
+A problem that occurred in rare cases and had existed for quite some time
+When DAC playback starts significantly late, the information for host synchronization becomes abnormal.
+Target issue resolution
+It occurs only with a very low probability.
+
+147_0
 EtherType has not changed from the debug version; only the version number has been updated.
 DDS-compatible.
 https://help.diretta.link/en/support/solutions/articles/73000661777-ms-mode-dds
@@ -43,8 +49,11 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_0:
+target="147_03:
 ${BRed}Required: module DDS Update$Color_Off
+Same as host
+
+147_0
 Same as host
 
 146_5:
