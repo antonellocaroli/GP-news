@@ -1,7 +1,12 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=340
-host="147_03:
+host="147_04:
+Fixed an issue where selecting variable cycle on the Host caused abnormal playback speed
+This occurred when jumbo frames were enabled.
+This is a host-only update.
+
+147_03
 A problem that occurred in rare cases and had existed for quite some time
 When DAC playback starts significantly late, the information for host synchronization becomes abnormal.
 Target issue resolution
