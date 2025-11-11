@@ -495,6 +495,7 @@ echo -e "$BGreen #340$Color_Off
 -add: Home System > Log > Diretta_Target
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen 11/11/25 Update Kernel:$Color_Off
 -Rpi4: 6.12.55-MTU-PATCH/CLTO-MTU-PATCH (251111)
 These are Kerbel enabling JumboFrame on Rpi4.
