@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=341
+srciptvd=342
 host="147_07:
 ${BRed}alsa_bridge module update recommended but not strictly necessary$Color_Off
 When adjusting the connection confirmation message in 147_05, we shortened the message response time for disconnect processing.
@@ -514,6 +514,14 @@ Required:
 GP-Update
 update MemoryPlayHost
 updtae MemoryPlayContoller
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #342$Color_Off
+-fix: MemoryPlay start
+Required:
+GP-Update
+reinstall MemoryPlayHost
 "
 ##############################################################################
 
