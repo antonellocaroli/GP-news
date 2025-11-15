@@ -1,15 +1,11 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=341
-host="147_05:
-Currently, an issue causing sudden stops has been confirmed with the combination of Jumbo Frames, Windows, and Target's USB-Ethernet adapter.
-The cause is currently unknown and under investigation.
-No issues have been reported, but I'm sending the update as a courtesy.
-Added a limit to increase TargetBuffer when the send cycle decreases during jumbo frame operation
-Added a limit to prevent TargetBuffer information retrieval from becoming too fast
-We've slightly reduced the number of system calls.
-Since there are no particular issues, no update is necessary.
-Version number alignment in updates
+host="147_07:
+${BRed}alsa_bridge module update recommended but not strictly necessary$Color_Off
+When adjusting the connection confirmation message in 147_05, we shortened the message response time for disconnect processing.
+This caused an issue where performing a disconnection on a potentially existing Target connection too quickly would corrupt the Target's state.
+We implemented a fix to prevent the Target's state from becoming corrupted.
 
 147_04
 Fixed an issue where selecting variable cycle on the Host caused abnormal playback speed
@@ -64,9 +60,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_05:
-
-147_03
+target="147_07:
 ${BRed}Required: module DDS Update$Color_Off
 Same as host
 
