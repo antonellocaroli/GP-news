@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=340
+srciptvd=341
 host="147_05:
 Currently, an issue causing sudden stops has been confirmed with the combination of Jumbo Frames, Windows, and Target's USB-Ethernet adapter.
 The cause is currently unknown and under investigation.
@@ -512,6 +512,15 @@ echo -e "$BGreen 11/11/25 Update Kernel:$Color_Off
 -Rpi4: 6.12.55-MTU-PATCH/CLTO-MTU-PATCH (251111)
 These are Kerbel enabling JumboFrame on Rpi4.
 WARNING: they may be unstable, to be tested."
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #341$Color_Off
+-add: Home System > Log > MemoryPlayHost
+Required:
+GP-Update
+update MemoryPlayHost
+updtae MemoryPlayContoller
+"
 ##############################################################################
 
 
