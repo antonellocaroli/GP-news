@@ -1,7 +1,10 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=342
-host="147_07:
+host="147_08:
+The USB-Ether stopped working after updating the DDS Driver to its latest version.
+
+147_07
 ${BRed}alsa_bridge module update recommended but not strictly necessary$Color_Off
 When adjusting the connection confirmation message in 147_05, we shortened the message response time for disconnect processing.
 This caused an issue where performing a disconnection on a potentially existing Target connection too quickly would corrupt the Target's state.
@@ -60,8 +63,11 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_07:
+target="147_08:
 ${BRed}Required: module DDS Update$Color_Off
+Same as host
+
+147_07
 Same as host
 
 147_0
