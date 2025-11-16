@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=342
+srciptvd=343
 host="147_08:
 The USB-Ether stopped working after updating the DDS Driver to its latest version.
 
@@ -530,7 +530,11 @@ GP-Update
 reinstall MemoryPlayHost
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #343$Color_Off
+-add: Utility > DSF Fix
+"
+##############################################################################
 
 
 echo -e " ────────────────────────────────────────────"
