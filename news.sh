@@ -1,7 +1,10 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=343
-host="147_08:
+host="147_09:
+
+
+147_08
 The USB-Ether stopped working after updating the DDS Driver to its latest version.
 
 147_07
@@ -63,7 +66,10 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_08:
+target="147_09:
+Same as host
+
+147_08
 ${BRed}Required: module DDS Update$Color_Off
 Same as host
 
