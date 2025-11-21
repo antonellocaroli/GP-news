@@ -1,8 +1,10 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=343
-host="147_09:
-
+host="147_12:
+Disconnection issue when connecting from a host that does not support MS Mode.
+This appears to have occurred when optimizing MS Mode.
+It's only used in that kind of environment on certain Lucia models, you know.
 
 147_08
 The USB-Ether stopped working after updating the DDS Driver to its latest version.
@@ -66,7 +68,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_09:
+target="147_12:
 Same as host
 
 147_08
