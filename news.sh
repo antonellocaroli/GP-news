@@ -1,10 +1,21 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=343
-host="147_12:
-Disconnection issue when connecting from a host that does not support MS Mode.
-This appears to have occurred when optimizing MS Mode.
-It's only used in that kind of environment on certain Lucia models, you know.
+host="147_13:
+Reduced the time taken for Diretta's DisConnect during momentary connection disconnects
+In this case, reduced from 500msec to approximately 10msec
+Alsa Close function to return control to Alsa without waiting for Diretta's DisConnect.
+disConnectDelay
+	Alsa Close does not wait for the connection with the Target to terminate.
+	If you start playback immediately after closing,
+	default enable
+The issue lies in the player application actually performing the configuration instead of inferring it from the ability during the playback readiness test.
+Since Diretta and Alsa virtually emulate the driver, setting the format effectively means establishing a Diretta connection.
+Are there player applications that fail when Diretta's DisConnect takes too long?
+Previously, due to a DisConnect bug, it didn't wait for the session to end. Consequently, the immediate Connect attempt would try to fill it now.
+After fixing that, Alsa's Close now waits for DisConnect to complete, causing the delay.
+As a result, I suspect some players might fail during continuous playback.
+The driver can't understand the player's behavior, so the cause remains unknown.
 
 147_08
 The USB-Ether stopped working after updating the DDS Driver to its latest version.
@@ -68,7 +79,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_12:
+target="147_13:
 Same as host
 
 147_08
