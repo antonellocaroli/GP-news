@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=343
+srciptvd=344
 host="147_13:
 Reduced the time taken for Diretta's DisConnect during momentary connection disconnects
 In this case, reduced from 500msec to approximately 10msec
@@ -552,6 +552,11 @@ reinstall MemoryPlayHost
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #343$Color_Off
 -add: Utility > DSF Fix
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #343$Color_Off
+-Update: Utility > DSF Fix
 "
 ##############################################################################
 
