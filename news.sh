@@ -565,7 +565,7 @@ echo -e "$BGreen #344$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #345$Color_Off
 -add: Update/Install/Remove > Software Manager > Install > Audio > DirettaRendererUPnP
--add: 06. Diretta > 6. DirettaRendererUPnP
+-add: 06. Diretta > 6. DirettaRendererUPnP (configuration web page)
 -add: 05. Enable/Disable Software > DirettaRendererUPnP
 Info:
 -if DirettaRendererUPnP is installed with extra default options, the log is written to /var/log/DirettaRendererUPnP.log
