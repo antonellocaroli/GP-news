@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=345
+srciptvd=346
 host="147_19:
 
 
@@ -570,6 +570,11 @@ echo -e "$BGreen #345$Color_Off
 Info:
 -if DirettaRendererUPnP is installed with extra default options, the log is written to /var/log/DirettaRendererUPnP.log
 -As with all Diretta products, DirettaRendererUPnP is automatically compiled with CPU-specific libraries.
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #346$Color_Off
+-add: Home System > Log > DirettaRendererUPnP
 "
 ##############################################################################
 
