@@ -1,7 +1,10 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=344
-host="147_13:
+srciptvd=345
+host="147_19:
+
+
+147_13
 Reduced the time taken for Diretta's DisConnect during momentary connection disconnects
 In this case, reduced from 500msec to approximately 10msec
 Alsa Close function to return control to Alsa without waiting for Diretta's DisConnect.
@@ -79,7 +82,7 @@ Settings have been added.
 https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
 https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
 "
-target="147_13:
+target="147_14:
 Same as host
 
 147_08
@@ -555,8 +558,18 @@ echo -e "$BGreen #343$Color_Off
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen #343$Color_Off
+echo -e "$BGreen #344$Color_Off
 -Update: Utility > DSF Fix
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #345$Color_Off
+-add: Update/Install/Remove > Software Manager > Install > Audio > DirettaRendererUPnP
+-add: 06. Diretta > 6. DirettaRendererUPnP
+-add: 05. Enable/Disable Software > DirettaRendererUPnP
+Info:
+-if DirettaRendererUPnP is installed with extra default options, the log is written to /var/log/DirettaRendererUPnP.log
+-As with all Diretta products, DirettaRendererUPnP is automatically compiled with CPU-specific libraries.
 "
 ##############################################################################
 
