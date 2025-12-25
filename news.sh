@@ -579,7 +579,7 @@ echo -e "$BGreen #346$Color_Off
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #347$Color_Off
--add: Home System > Log > DirettaRendererUPnP > new options: Network Interface Options
+-add: 06. Diretta > 6. DirettaRendererUPnP > new options: Network Interface Options
 Required:
 GP-Update and reinstall  DirettaRendererUPnP-1.1.0
 "
