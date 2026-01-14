@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=348
+srciptvd=349
 host="147_19:
 
 
@@ -588,6 +588,13 @@ echo -e " ───────────────────────�
 echo -e "$BGreen 29/12/25 Update Kernel:$Color_Off
 -Rpi: 6.18.1-CLTO-TEST (251229)
 -x86: 6.18.2-CLTO (251229)
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #349$Color_Off
+-add: 06. Diretta > 6. DirettaRendererUPnP > new options
+Required:
+GP-Update and reinstall  DirettaRendererUPnP
 "
 ##############################################################################
 
