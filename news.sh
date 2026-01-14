@@ -597,6 +597,12 @@ Required:
 GP-Update and reinstall  DirettaRendererUPnP
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 14/01/26 Update Kernel:$Color_Off
+-Rpi: 6.18.1-CLTO-TEST (260115)
+not compatible with Allo-UsbBridge
+"
+##############################################################################
 
 
 
