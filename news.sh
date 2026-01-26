@@ -603,6 +603,13 @@ echo -e "$BGreen 14/01/26 Update Kernel:$Color_Off
 not compatible with Allo-UsbBridge
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #350$Color_Off
+-server switch
+Required:
+GP-Update
+"
+##############################################################################
 
 
 
