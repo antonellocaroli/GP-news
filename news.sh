@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=349
+srciptvd=350
 host="147_19:
 
 
