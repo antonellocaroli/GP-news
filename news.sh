@@ -1,114 +1,16 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
 srciptvd=350
-host="147_19:
 
+#${BRed}Required: module DDS Update$Color_Off
+host="148_0:
+This is not an official release as it is currently under review by the IEEE.
+The next release will be the official LTS release, and only the EtherType value of the DDS Driver is scheduled to be changed.
 
-147_13
-Reduced the time taken for Diretta's DisConnect during momentary connection disconnects
-In this case, reduced from 500msec to approximately 10msec
-Alsa Close function to return control to Alsa without waiting for Diretta's DisConnect.
-disConnectDelay
-	Alsa Close does not wait for the connection with the Target to terminate.
-	If you start playback immediately after closing,
-	default enable
-The issue lies in the player application actually performing the configuration instead of inferring it from the ability during the playback readiness test.
-Since Diretta and Alsa virtually emulate the driver, setting the format effectively means establishing a Diretta connection.
-Are there player applications that fail when Diretta's DisConnect takes too long?
-Previously, due to a DisConnect bug, it didn't wait for the session to end. Consequently, the immediate Connect attempt would try to fill it now.
-After fixing that, Alsa's Close now waits for DisConnect to complete, causing the delay.
-As a result, I suspect some players might fail during continuous playback.
-The driver can't understand the player's behavior, so the cause remains unknown.
-
-147_08
-The USB-Ether stopped working after updating the DDS Driver to its latest version.
-
-147_07
-${BRed}alsa_bridge module update recommended but not strictly necessary$Color_Off
-When adjusting the connection confirmation message in 147_05, we shortened the message response time for disconnect processing.
-This caused an issue where performing a disconnection on a potentially existing Target connection too quickly would corrupt the Target's state.
-We implemented a fix to prevent the Target's state from becoming corrupted.
-
-147_04
-Fixed an issue where selecting variable cycle on the Host caused abnormal playback speed
-This occurred when jumbo frames were enabled.
-This is a host-only update.
-
-147_03
-A problem that occurred in rare cases and had existed for quite some time
-When DAC playback starts significantly late, the information for host synchronization becomes abnormal.
-Target issue resolution
-It occurs only with a very low probability.
-
-147_0
-EtherType has not changed from the debug version; only the version number has been updated.
-DDS-compatible.
-https://help.diretta.link/en/support/solutions/articles/73000661777-ms-mode-dds
-
-
-146_7
-Modify the DDS Driver description to Classic C
-Resolves duplicate thread interrupts when interrupts are delayed in the DDS Driver
-(Countermeasures in Environments Where Network Interrupts Do Not Occur Primitively)
-*The EtherType for DDS is currently under review by IEEE.
-
-146_5:
-Fixed connections to the Target would fail when the connection interval was short in Mode3.
-Fixed not waiting for the host's Disconnect
-Fixed connections disconnect when HostDebug is enabled in Mode3
-
-146_4:
-Fixed packet corruption issue with DDS driver when using USB-Ether
-Fixed minor issues related to the host
-
-146_1:
-We are releasing a preview version compatible with Diretta Direct Stream (DDS)
-Adjustments are not yet complete, and issues may arise.
-When the DDS degree field is loaded, activating target 146 will make it available.
-The host runs on Linux where SOCK_RAW is available for 146.
-DDS utilizes the L2 layer directly for stream transfer.
-https://help.diretta.link/en/support/solutions/articles/73000661018-146
-
-144_5:
-MemoryPlayer freezes when sending a Connect request during playback
-A serious problem occurred.
-Issue where UDP transmission is not performed on the HOST
-
-144_1:
-Jumbo Frame Support
-This is an internal issue, but packet processing has undergone significant changes.
-
-Settings have been added.
-https://help.diretta.link/en/support/solutions/articles/73000511756-thredmode-setting
-https://help.diretta.link/en/support/solutions/articles/73000628661-host-setting
+148 is scheduled for release in parallel as a Long Time Support version.
 "
-target="147_14:
+target="148_0:
 Same as host
-
-147_08
-${BRed}Required: module DDS Update$Color_Off
-Same as host
-
-147_07
-Same as host
-
-147_0
-Same as host
-
-146_5:
-Same as host
-
-146_2:
-Fixed packet corruption issue with DDS driver when using USB-Ether
-Fixed minor issues related to the host
-
-146_2:
-We are releasing a preview version compatible with Diretta Direct Stream (DDS)
-Adjustments are not yet complete, and issues may arise.
-When the DDS degree field is loaded, activating target 146 will make it available.
-The host runs on Linux where SOCK_RAW is available for 146.
-DDS utilizes the L2 layer directly for stream transfer.
-https://help.diretta.link/en/support/solutions/articles/73000661018-146
 "
 
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
