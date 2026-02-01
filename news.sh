@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=351
+srciptvd=352
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -513,8 +513,8 @@ GP-Update
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen #351$Color_Off
-- Add Update/Install/Remove > ffmpeg switch
+echo -e "$BGreen #352$Color_Off
+- Fix Update/Install/Remove > ffmpeg switch
 "
 ##############################################################################
 
