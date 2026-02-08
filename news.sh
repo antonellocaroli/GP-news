@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=355
+srciptvd=356
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -347,6 +347,14 @@ echo -e "$BGreen #354$Color_Off
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #355$Color_Off
 -add: Home system > log > squeeze2diretta
+"
+##############################################################################
+cho -e " ────────────────────────────────────────────"
+echo -e "$BGreen #356$Color_Off
+-add:Update/Install/Remove > 4. Alsa switch
+-up: move in Update/Install/Remove:
+Software Manager > 3. Software Manager
+ffmpeg switch > 5. ffmpeg switch
 "
 ##############################################################################
 
