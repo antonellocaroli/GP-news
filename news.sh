@@ -349,7 +349,7 @@ echo -e "$BGreen #355$Color_Off
 -add: Home system > log > squeeze2diretta
 "
 ##############################################################################
-cho -e " ────────────────────────────────────────────"
+echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #356$Color_Off
 -add:Update/Install/Remove > 4. Alsa switch
 -up: move in Update/Install/Remove:
