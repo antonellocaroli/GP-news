@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=356
+srciptvd=357
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -355,6 +355,12 @@ echo -e "$BGreen #356$Color_Off
 -up: move in Update/Install/Remove:
 Software Manager > 3. Software Manager
 ffmpeg switch > 5. ffmpeg switch
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #357$Color_Off
+-update:  06. Diretta > 7. squeeze2diretta (configuration web page)
+add -W (WAV_HEADER) parameter optional.
 "
 ##############################################################################
 
