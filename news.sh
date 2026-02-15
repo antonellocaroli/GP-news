@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=358
+srciptvd=359
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -367,6 +367,11 @@ echo -e " ───────────────────────�
 echo -e "$BGreen #358$Color_Off
 -add: DirettaRendererUPnP and Squeeze2Diretta to
 Home System > 02. SystemInfo Software
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #359$Color_Off
+-fix: SystemInfo
 "
 ##############################################################################
 
