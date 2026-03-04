@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=359
+srciptvd=360
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -372,6 +372,13 @@ Home System > 02. SystemInfo Software
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #359$Color_Off
 -fix: SystemInfo
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #360$Color_Off
+-add: Support to slim2diretta
+for info see:
+https://audiophilestyle.com/forums/topic/55235-gentooplayer/page/377/#findComment-1333990
 "
 ##############################################################################
 
