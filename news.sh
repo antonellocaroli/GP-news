@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=360
+srciptvd=361
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -381,7 +381,13 @@ for info see:
 https://audiophilestyle.com/forums/topic/55235-gentooplayer/page/377/#findComment-1333990
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #361$Color_Off
+-Update slim2diretta an DirettaRendererUPnP
+-Update configuration function, now uses the software's WI.
+-WARNING: if you use squeeze2diretta, consider removing it, as I will soon be removing support for it and it will no longer be present in the WI.
+"
+##############################################################################
 
 
 echo -e " ────────────────────────────────────────────"
