@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=362
+srciptvd=363
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -393,6 +393,13 @@ echo -e "$BGreen #362$Color_Off
 -Removed support to Squeeze2Diretta
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #363$Color_Off
+-add: Support to uac2diretta
+for info see:
+https://audiophilestyle.com/forums/topic/55235-gentooplayer/page/379/#findComment-1335579
+"
+##############################################################################
 
 
 echo -e " ────────────────────────────────────────────"
@@ -421,6 +428,6 @@ ${UGreen}Target$Color_Off $target
 echo
 echo
 
-############
+###########
 exit 0
 ###########
