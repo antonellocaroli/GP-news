@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=363
+srciptvd=364
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -398,6 +398,11 @@ echo -e "$BGreen #363$Color_Off
 -add: Support to uac2diretta
 for info see:
 https://audiophilestyle.com/forums/topic/55235-gentooplayer/page/379/#findComment-1335579
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #364$Color_Off
+-add: 09. System Config Adavanced > Ethernet Adapter Manager
 "
 ##############################################################################
 
