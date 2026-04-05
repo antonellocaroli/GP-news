@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=364
+srciptvd=365
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_0:
@@ -403,6 +403,12 @@ https://audiophilestyle.com/forums/topic/55235-gentooplayer/page/379/#findCommen
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #364$Color_Off
 -add: 09. System Config Adavanced > Ethernet Adapter Manager
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #365$Color_Off
+-update: SystemInfo Software
+-add: DSD support added to moc
 "
 ##############################################################################
 
