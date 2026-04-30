@@ -3,13 +3,12 @@
 srciptvd=365
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_0:
-This is not an official release as it is currently under review by the IEEE.
-The next release will be the official LTS release, and only the EtherType value of the DDS Driver is scheduled to be changed.
+host="148_1:
+IEEE approval has been completed
 
-148 is scheduled for release in parallel as a Long Time Support version.
+The EtherType for CB4B has been assigned to Diretta Direct Stream (DDS)
 "
-target="148_0:
+target="148_1:
 Same as host
 "
 
@@ -417,6 +416,15 @@ echo -e "$BGreen 26/04/26 Update Kernel:$Color_Off
 6.12.77
 6.18.18
 6.19.12
+7.0.1
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 30/04/26 Update Kernel:$Color_Off
+-Rpi: Update kernel (260425)
+6.12.83
+6.18.24
+6.19.14
 7.0.1
 "
 ##############################################################################
