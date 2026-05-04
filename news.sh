@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=365
+srciptvd=366
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_1:
@@ -426,6 +426,13 @@ echo -e "$BGreen 30/04/26 Update Kernel:$Color_Off
 6.18.24
 6.19.14
 7.0.1
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #366$Color_Off
+-update:
+DirettaRendererUPnP config
+slim2diretta config
 "
 ##############################################################################
 
