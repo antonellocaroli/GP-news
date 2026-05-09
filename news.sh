@@ -1,15 +1,45 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=366
+srciptvd=367
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_1:
+host="148_2:
+
+Broadcasting has been added to DirettaHost
+This is the packet sent when a target is detected.
+IPv6 does not use broadcasts; instead, it uses multicast.
+However, there are switches that block multicast traffic.
+While there are ways to address this, they do not always guarantee a solution.
+
+DIRETTAL::Find::Broadcast
+DIRETTAL::Find::Multicast (default ture
+
+Alsa add option
+
+Broadcast
+	When a target is detected, the destination MAC address of the multicast packet is spoofed to appear as a broadcast address.
+	It may be possible to trick switches that do not forward IPv6 multicast traffic
+	enable is add Broadcast packet
+	nomulticast is use Broadcast , not use Multicast
+
+ScanOnlineStop
+	Stop scanning for targets during playback
+
+ScanInterval
+	Target scan interval Ttime second
+	default 20 sec
+
+alsaUnderrunSleep
+	Sleep for a specified duration (microseconds) when a player buffer underrun is detected
+	The syncBufferCount must be long enough
+
+alsaUnderrunClear
+	Clears the loaded ALSA buffer using mute
+"
+target="148_1:
 IEEE approval has been completed
 
 The EtherType for CB4B has been assigned to Diretta Direct Stream (DDS)
-"
-target="148_1:
-Same as host
 "
 
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
@@ -433,6 +463,11 @@ echo -e "$BGreen #366$Color_Off
 -update:
 DirettaRendererUPnP config
 slim2diretta config
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #367$Color_Off
+-update: Diretta > 3. Diretta Host Protocol - Config
 "
 ##############################################################################
 
