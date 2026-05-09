@@ -468,6 +468,9 @@ slim2diretta config
 echo -e " ────────────────────────────────────────────"
 echo -e "$BGreen #367$Color_Off
 -update: Diretta > 3. Diretta Host Protocol - Config
+-update Diretta Host 148_2
+Required:
+GP-Update first
 "
 ##############################################################################
 
