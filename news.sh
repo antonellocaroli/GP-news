@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=368
+srciptvd=369
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_2:
@@ -484,7 +484,11 @@ echo -e "$BGreen #368$Color_Off
 -update: Utility > Affinity Mask Calculator
 "
 ##############################################################################
-
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #369$Color_Off
+-fix: Set IRQ/Threads
+"
+##############################################################################
 
 echo -e " ────────────────────────────────────────────"
 echo
