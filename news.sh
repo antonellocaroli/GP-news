@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=369
+srciptvd=370
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_2:
@@ -495,6 +495,13 @@ echo -e "$BGreen 06/06/26 Update Kernel:$Color_Off
 7.0.11
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #370$Color_Off
+-general improvements
+"
+##############################################################################
+
+
 
 echo -e " ────────────────────────────────────────────"
 echo
