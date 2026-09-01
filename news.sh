@@ -473,6 +473,11 @@ echo -e "$BGreen #370$Color_Off
 -general improvements
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #371$Color_Off
+-Added support for Spotify Soloist ( https://developer.spotify.com/documentation/soloist )
+"
+##############################################################################
 
 
 
