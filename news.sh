@@ -3,11 +3,9 @@
 srciptvd=370
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_4:
-Fixed an issue where packet transmission immediately after playback starts in Host (Sync) was one cycle too early
-Fixed an issue in AlsaDriver where callbacks were not being received, causing playback to start late
-If the software worked without issues in the previous version, this update will have little to no impact.
-There are no changes to Target.
+host="148_5:
+Fixed an issue where the system would not switch to the Busy Soup profile in Mode 3
+Nothing changes even after configuring NoSleep settings in ThredMode.
 "
 target="148_1:
 IEEE approval has been completed
