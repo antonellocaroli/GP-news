@@ -476,6 +476,14 @@ echo -e "$BGreen #371$Color_Off
 -Added support for Spotify Soloist ( https://developer.spotify.com/documentation/soloist )
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 07/09/26 Update Kernel:$Color_Off
+-Rpi: Update kernel (260907)
+6.18.48
+
+Includes the MTU patch for the RPi4 up to 3824
+"
+##############################################################################
 
 
 
