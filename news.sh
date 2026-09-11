@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=372
+srciptvd=373
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_5:
@@ -488,6 +488,15 @@ echo -e " ───────────────────────�
 echo -e "$BGreen #372$Color_Off
 -Add System Expert-I > 03. AudioTuner
 Advanced Linux audio optimizer that analyzes audio processes and their threads...
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #373$Color_Off
+-Add Player/Audio Setting > Spotify Connect - Soloist
+Required:
+GP-Update
+soloist-bin update: Update/Install/Remove > Software Manger > Reinstall > Soloist
+info: https://gentooplayer.com/info/soloist.pdf
 "
 ##############################################################################
 
