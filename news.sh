@@ -500,7 +500,7 @@ info: https://gentooplayer.com/info/soloist.pdf
 "
 ##############################################################################
 echo -e " ────────────────────────────────────────────"
-echo -e "$BGreen 07/09/26 Update Kernel:$Color_Off
+echo -e "$BGreen 11/09/26 Update Kernel:$Color_Off
 -Rpi4: Update kernel (260911)
 6.18.50
 Includes the MTU patch up to 9000
