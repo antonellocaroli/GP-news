@@ -3,9 +3,13 @@
 srciptvd=373
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_5:
-Fixed an issue where the system would not switch to the Busy Soup profile in Mode 3
-Nothing changes even after configuring NoSleep settings in ThredMode.
+host="148_6:
+added a feature to set `syncBufferCount` to 0.
+If you don't plan to change your ALSA driver settings, you don't need to update.
+If you enable this setting, the buffer will be removed, and the ALSA virtual driver's buffer will be handled directly.
+Therefore, depending on your player or ALSA settings, issues are bound to occur.
+For tracking the AlsaDriver published on DirettaPreview
+https://www.instagram.com/p/DdGBFeuGrU0/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==
 "
 target="148_1:
 IEEE approval has been completed
