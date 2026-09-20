@@ -3,10 +3,11 @@
 srciptvd=373
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_9:
-Fixes for issues where Target detection optimization does not occur
-Fixes for sections with potential memory corruption
-These issues are caused by DirettaTarget
+host="148_10:
+There was a bug in the naming feature that caused a packet burst when a device was detected.
+We fixed the issue by omitting that feature.
+I made corrections to both Host and Target.
+Once either one is updated, the issue will be resolved.
 "
 target="148_9:
 same
