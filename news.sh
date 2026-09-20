@@ -3,18 +3,13 @@
 srciptvd=373
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_6:
-added a feature to set `syncBufferCount` to 0.
-If you don't plan to change your ALSA driver settings, you don't need to update.
-If you enable this setting, the buffer will be removed, and the ALSA virtual driver's buffer will be handled directly.
-Therefore, depending on your player or ALSA settings, issues are bound to occur.
-For tracking the AlsaDriver published on DirettaPreview
-https://www.instagram.com/p/DdGBFeuGrU0/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==
+host="148_9:
+Fixes for issues where Target detection optimization does not occur
+Fixes for sections with potential memory corruption
+These issues are caused by DirettaTarget
 "
-target="148_1:
-IEEE approval has been completed
-
-The EtherType for CB4B has been assigned to Diretta Direct Stream (DDS)
+target="148_9:
+same
 "
 
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
