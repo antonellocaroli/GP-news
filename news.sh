@@ -3,13 +3,13 @@
 srciptvd=373
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_10:
-There was a bug in the naming feature that caused a packet burst when a device was detected.
-We fixed the issue by omitting that feature.
-I made corrections to both Host and Target.
-Once either one is updated, the issue will be resolved.
+host="148_12:
+We have resolved the discrepancy in the types of binary images between LTS and Preview.
+I made some changes to the Makefile.
+
+I fixed an error in the TargetApp revision embedding.
 "
-target="148_9:
+target="148_12:
 same
 "
 
@@ -506,6 +506,13 @@ echo -e "$BGreen 11/09/26 Update Kernel:$Color_Off
 Includes the MTU patch up to 9000
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #374$Color_Off
+-Update diretta_target/host Install scripts
+"
+##############################################################################
+
+
 
 
 echo -e " ────────────────────────────────────────────"
