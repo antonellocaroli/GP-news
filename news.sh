@@ -511,6 +511,13 @@ echo -e "$BGreen #374$Color_Off
 -Update diretta_target/host Install scripts
 "
 ##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen 26/09/26 Update Kernel:$Color_Off
+-Rpi4: Update kernel (260926)
+6.18.53
+Includes the MTU patch up to 16347
+"
+##############################################################################
 
 
 
