@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=373
+srciptvd=375
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_12:
@@ -516,6 +516,12 @@ echo -e "$BGreen 26/09/26 Update Kernel:$Color_Off
 -Rpi4: Update kernel (260926)
 6.18.53
 Includes the MTU patch up to 16347
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #375$Color_Off
+-Update AudioTuner v. 2.0.1-r1
+-Update Ramsystem endpoint (fix load AudioTuner)
 "
 ##############################################################################
 
