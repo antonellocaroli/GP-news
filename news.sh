@@ -3,11 +3,11 @@
 srciptvd=375
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_12:
-We have resolved the discrepancy in the types of binary images between LTS and Preview.
-I made some changes to the Makefile.
+host="148_14:
+Merge for BufferCount=0
 
-I fixed an error in the TargetApp revision embedding.
+Preview 154_1 release
+Fix for an error caused by uninitialized memory when BufferCount=0 in AlsaDriver
 "
 target="148_12:
 same
