@@ -1,6 +1,6 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=375
+srciptvd=376
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_14:
@@ -522,6 +522,17 @@ echo -e " ───────────────────────�
 echo -e "$BGreen #375$Color_Off
 -Update AudioTuner v. 2.0.1-r1
 -Update Ramsystem endpoint (fix load AudioTuner)
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "${BGreen} #376${Color_Off}
+- Added: 12. Update/Install/Remove > Install/Update Allo USBridge Driver
+
+  Dedicated Allo USBridge images will be discontinued in the near future.
+
+  Allo USBridge users will be able to download the Raspberry Pi 3 image
+  and use this new feature to install or update the dedicated
+  Allo USBridge Ethernet driver, including MTU support up to 6130.
 "
 ##############################################################################
 
