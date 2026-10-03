@@ -1,13 +1,22 @@
 #!/bin/bash
 . /opt/.gentooplayer/function/felenco.sh
-srciptvd=376
+srciptvd=377
 
 #${BRed}Required: module DDS Update$Color_Off
 host="148_14:
-Merge for BufferCount=0
+We have added an option to insert a 2-second sleep period after playback stops for Targte devices that cannot be updated.
+This issue has already been fixed in the new Target
+It only occurs with Alsadriver
+It is caused by optimisations to the notifications sent to Alsadriver
 
-Preview 154_1 release
-Fix for an error caused by uninitialized memory when BufferCount=0 in AlsaDriver
+disConnectWorkaround
+	We avoid the issue with the old Target by introducing a two-second delay at the end of playback to delay the start of the next track.
+	default disable
+
+Required: Before updating, use GP-Update
+
+Preview 154_2 release
+same
 "
 target="148_12:
 same
@@ -533,6 +542,11 @@ echo -e "${BGreen} #376${Color_Off}
   Allo USBridge users will be able to download the Raspberry Pi 3 image
   and use this new feature to install or update the dedicated
   Allo USBridge Ethernet driver, including MTU support up to 6130.
+"
+##############################################################################
+echo -e " ────────────────────────────────────────────"
+echo -e "$BGreen #377$Color_Off
+-Update: Diretta Host Protocol - Config
 "
 ##############################################################################
 
