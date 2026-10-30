@@ -3,23 +3,13 @@
 srciptvd=377
 
 #${BRed}Required: module DDS Update$Color_Off
-host="148_14:
-We have added an option to insert a 2-second sleep period after playback stops for Targte devices that cannot be updated.
-This issue has already been fixed in the new Target
-It only occurs with Alsadriver
-It is caused by optimisations to the notifications sent to Alsadriver
+host="148_21:
 
-disConnectWorkaround
-	We avoid the issue with the old Target by introducing a two-second delay at the end of playback to delay the start of the next track.
-	default disable
+Preview 155_5 release
 
-Required: Before updating, use GP-Update
-
-Preview 154_2 release
-same
 "
-target="148_12:
-same
+target="148_21:
+
 "
 
 gpversion="$(sed -n 1p /etc/default/.GP-version).$(sed -n 2p /etc/default/.GP-version)$(sed -n 3p /etc/default/.GP-version)"
